@@ -89,6 +89,35 @@
         "grassi": 17.0
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "4019300150786",
+      "cartella": "",
+      "categoria": "latticino",
+      "certezza": "CERTO",
+      "colore": "ROSSO",
+      "data": "2026-08-13",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "formaggio fresco vaccino, formaggio fresco di capra",
+      "marca": "Naturella",
+      "motivo": "saturi a 16,1, oltre la soglia",
+      "nome": "Naturella alla capra latticino fresco",
+      "porzioneDichiarata": 100,
+      "tipo": "YOGURT",
+      "valori": {
+        "carboidrati": 2.9,
+        "proteine": 6.0,
+        "kcal": 244.0,
+        "saturi": 16.1,
+        "sale": 0.9,
+        "zuccheri": 2.9,
+        "grassi": 23.0
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
