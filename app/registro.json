@@ -2,6 +2,7 @@
   "cartelle": [
     "Bevanda",
     "Formaggi",
+    "Pane",
     "Yogurt"
   ],
   "scansioni": [
@@ -212,7 +213,7 @@
     },
     {
       "barcode": "8032998906226",
-      "cartella": "",
+      "cartella": "Pane",
       "categoria": "solido",
       "certezza": "CERTO",
       "colore": "GIALLO",
