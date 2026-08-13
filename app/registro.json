@@ -1,6 +1,7 @@
 {
   "cartelle": [
     "Bevanda",
+    "Condimenti",
     "Formaggi",
     "Pane",
     "Yogurt"
@@ -303,7 +304,7 @@
     },
     {
       "barcode": "8000965416559",
-      "cartella": "",
+      "cartella": "Condimenti",
       "categoria": "condimento",
       "certezza": "CERTO",
       "colore": "VERDE",
