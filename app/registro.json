@@ -209,6 +209,36 @@
         "grassi": 2.3
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8032998906226",
+      "cartella": "",
+      "categoria": "solido",
+      "certezza": "CERTO",
+      "colore": "GIALLO",
+      "data": "2026-08-13",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "ingredienti-1786644683785.jpg",
+      "fotoProdotto": "prodotto-1786644683684.jpg",
+      "fotoTabella": "",
+      "ingredienti": "E ae segale integrale da agricoitura DIoiogica. Ingredienu: farina di seyie egrale grossolana 28h. ace farina di segale integrale\" 22%, levito madre 22% (acqua, farina di segale integrale* lievito. \"Da agricoltura biologica. Può contenere frutta a quscio. latte e derivati soia m df segale* 3%, sale semi di sesamo e senape. Prodotto per CEA ITALIA sr-Via lsola di Sopta 44- 39044 Egna (BZ), Italia nello stabilimento di Hammeri andefRa 3- Soest (Germania) - info@dailybread.it-www.dailybread.it 8032998906226 ACCOLTA DiIFFERENZIATA 7 INCARTO; plastica Verifica le disposizioni del tuo Comune 375ge Dichiarazione nutrizionale per Energia Grassi di cui acIdi grassi saturi Carboidrati di cui zuccheri Fibre Protelne Sale 100g 854 kJ-202 kcal 1.19 029 38 g L51 g 8,2o 5,0o 0,78",
+      "marca": "DailyBread",
+      "motivo": "sale a 0,78, al limite",
+      "nome": "Pane segale integrale biologico (DailyBread)",
+      "porzioneDichiarata": 0,
+      "tipo": "PANE",
+      "valori": {
+        "carboidrati": 38.0,
+        "proteine": 6.0,
+        "kcal": 202.0,
+        "saturi": 0.2,
+        "sale": 0.78,
+        "zuccheri": 1.1,
+        "fibre": 8.2,
+        "grassi": 1.1
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
