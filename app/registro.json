@@ -270,6 +270,36 @@
         "grassi": 0.9
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8032998903300",
+      "cartella": "Pane",
+      "categoria": "solido",
+      "certezza": "CERTO",
+      "colore": "GIALLO",
+      "data": "2026-08-13",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "prodotto-1786644984057.jpg",
+      "fotoTabella": "",
+      "ingredienti": "Farina di grano tenero tipo 0, pasta madre acida (farina di segale 15%, acqua), farina di segale 21%, acqua, lievito, sale, correttori di acidità: acetati di sodio, conservante: acido sorbico, aroma naturale, Trattato con alcol etilico, Può contenere tracce di semi di sesamo,",
+      "marca": "DailyBread",
+      "motivo": "sale a 1, al limite",
+      "nome": "Pane di segale (DailyBread)",
+      "porzioneDichiarata": 0,
+      "tipo": "PANE",
+      "valori": {
+        "carboidrati": 41.0,
+        "proteine": 7.5,
+        "kcal": 215.0,
+        "saturi": 0.5,
+        "sale": 1.0,
+        "zuccheri": 1.6,
+        "fibre": 6.6,
+        "grassi": 1.1
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
