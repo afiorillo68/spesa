@@ -139,37 +139,6 @@
       "zuccheriAggiunti": false
     },
     {
-      "barcode": "8001620015643",
-      "cartella": "Bevanda",
-      "categoria": "solido",
-      "certezza": "CERTO",
-      "colore": "VERDE",
-      "data": "2026-08-13",
-      "fonteTipo": "Open Food Facts",
-      "fonteValori": "openfoodfacts",
-      "fotoIngredienti": "",
-      "fotoProdotto": "prodotto-1786638867167.jpg",
-      "fotoTabella": "",
-      "ingredienti": "Acqua minerale 73%, succhi di frutta da concentrato 25% (uva rossa 21%, lampone 2,1%, fragola 1%, sambuco 0,9%), acidificante: acido citrico, correttore di E (ciclamato di sodio, sucralosio), ascorbico. DAENTE",
-      "marca": "San Benedetto",
-      "motivo": "voci tutte in fascia, proteine al limite ma dentro",
-      "negozio": "",
-      "nome": "SUCCOSO FRUTTI ROSSI zero zuccheri aggiunti (San Benedetto)",
-      "nova": 0,
-      "nutriscore": "",
-      "porzioneDichiarata": 100,
-      "tipo": "BEVANDA",
-      "valori": {
-        "carboidrati": 3.8,
-        "proteine": 0.1,
-        "kcal": 17.0,
-        "sale": 0.02,
-        "zuccheri": 3.8,
-        "grassi": 0.0
-      },
-      "zuccheriAggiunti": false
-    },
-    {
       "barcode": "",
       "cartella": "Formaggi",
       "categoria": "latticino",
@@ -525,6 +494,37 @@
         "sale": 0.34,
         "zuccheri": 1.1,
         "grassi": 3.6
+      },
+      "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8001620015643",
+      "cartella": "Bevanda",
+      "categoria": "solido",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-13",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "prodotto-1786638867167.jpg",
+      "fotoTabella": "",
+      "ingredienti": "Acqua minerale 73%, succhi di frutta da concentrato 25% (uva rossa 21%, lampone 2,1%, fragola 1%, sambuco 0,9%), acidificante: acido citrico, correttore di E (ciclamato di sodio, sucralosio), ascorbico. DAENTE",
+      "marca": "San Benedetto",
+      "motivo": "voci tutte in fascia, proteine al limite ma dentro",
+      "negozio": "GDO premium",
+      "nome": "SUCCOSO FRUTTI ROSSI zero zuccheri aggiunti (San Benedetto)",
+      "nova": 0,
+      "nutriscore": "",
+      "porzioneDichiarata": 100,
+      "tipo": "BEVANDA",
+      "valori": {
+        "carboidrati": 3.8,
+        "proteine": 0.1,
+        "kcal": 17.0,
+        "sale": 0.02,
+        "zuccheri": 3.8,
+        "grassi": 0.0
       },
       "zuccheriAggiunti": false
     }
