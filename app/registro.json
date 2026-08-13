@@ -3,6 +3,7 @@
     "Bevanda",
     "Carne",
     "Condimenti",
+    "Farine",
     "Formaggi",
     "Pane",
     "Pesce",
@@ -497,7 +498,7 @@
     },
     {
       "barcode": "8003170084414",
-      "cartella": "",
+      "cartella": "Farine",
       "categoria": "solido",
       "certezza": "CERTO",
       "colore": "GIALLO",
