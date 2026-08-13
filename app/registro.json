@@ -360,6 +360,35 @@
         "grassi": 4.3
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "4056489621805",
+      "cartella": "",
+      "categoria": "solido",
+      "certezza": "CERTO",
+      "colore": "GIALLO",
+      "data": "2026-08-13",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "prodotto-1786646985388.jpg",
+      "fotoTabella": "",
+      "ingredienti": "",
+      "marca": "Lidl",
+      "motivo": "grassi a 10,9, al limite",
+      "nome": "Filetto di salmone (Lidl)",
+      "porzioneDichiarata": 0,
+      "tipo": "PESCE",
+      "valori": {
+        "carboidrati": 0.0,
+        "proteine": 15.9,
+        "kcal": 162.0,
+        "saturi": 2.4,
+        "sale": 0.0,
+        "zuccheri": 0.0,
+        "grassi": 10.9
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
