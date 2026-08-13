@@ -330,6 +330,36 @@
         "grassi": 3.6
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "20169404",
+      "cartella": "",
+      "categoria": "grasso_buono",
+      "certezza": "CERTO",
+      "colore": "GIALLO",
+      "data": "2026-08-13",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "prodotto-1786646837875.jpg",
+      "fotoTabella": "",
+      "ingredienti": "38% chair de poisson, eau, blanc d\u0027œuf réhydraté, fécule de pomme de terre, huile de colza, amidon de blé, sucre, sel, arômes naturels (contient crustacés, céréales contenant du gluten), colorant: extrait de paprika. Traces éventuelles de mollusques.",
+      "marca": "GASTRONOMIA DI MARE",
+      "motivo": "fibre a 2,7, al limite",
+      "nome": "Surimi (GASTRONOMIA DI MARE)",
+      "porzioneDichiarata": 45,
+      "tipo": "PESCE",
+      "valori": {
+        "carboidrati": 12.6,
+        "proteine": 7.9,
+        "kcal": 111.0,
+        "saturi": 0.5,
+        "sale": 0.0,
+        "zuccheri": 0.0,
+        "fibre": 2.7,
+        "grassi": 4.3
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
