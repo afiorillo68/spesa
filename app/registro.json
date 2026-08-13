@@ -336,38 +336,6 @@
       "zuccheriAggiunti": false
     },
     {
-      "barcode": "8000965416559",
-      "cartella": "Condimenti",
-      "categoria": "condimento",
-      "certezza": "CERTO",
-      "colore": "VERDE",
-      "data": "2026-08-13",
-      "fonteTipo": "nome e ingredienti",
-      "fonteValori": "openfoodfacts",
-      "fotoIngredienti": "",
-      "fotoProdotto": "prodotto-1786645370645.jpg",
-      "fotoTabella": "",
-      "ingredienti": "",
-      "marca": "Consilia",
-      "motivo": "voci tutte in fascia, sale al limite ma dentro",
-      "negozio": "",
-      "nome": "Salsa Yogurt magro",
-      "nova": 0,
-      "nutriscore": "",
-      "porzioneDichiarata": 4,
-      "tipo": "YOGURT",
-      "valori": {
-        "carboidrati": 1.8,
-        "proteine": 0.1,
-        "kcal": 40.0,
-        "saturi": 0.4,
-        "sale": 0.34,
-        "zuccheri": 1.1,
-        "grassi": 3.6
-      },
-      "zuccheriAggiunti": false
-    },
-    {
       "barcode": "8001620015643",
       "cartella": "Bevanda",
       "categoria": "solido",
@@ -525,6 +493,38 @@
         "zuccheri": 1.4,
         "fibre": 0.0,
         "grassi": 17.0
+      },
+      "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8000965416559",
+      "cartella": "Condimenti",
+      "categoria": "condimento",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-13",
+      "fonteTipo": "nome e ingredienti",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "prodotto-1786645370645.jpg",
+      "fotoTabella": "",
+      "ingredienti": "",
+      "marca": "Consilia",
+      "motivo": "voci tutte in fascia, sale al limite ma dentro",
+      "negozio": "Pam",
+      "nome": "Salsa Yogurt magro",
+      "nova": 0,
+      "nutriscore": "",
+      "porzioneDichiarata": 4,
+      "tipo": "YOGURT",
+      "valori": {
+        "carboidrati": 1.8,
+        "proteine": 0.1,
+        "kcal": 40.0,
+        "saturi": 0.4,
+        "sale": 0.34,
+        "zuccheri": 1.1,
+        "grassi": 3.6
       },
       "zuccheriAggiunti": false
     }
