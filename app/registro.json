@@ -449,6 +449,36 @@
         "grassi": 1.0
       },
       "zuccheriAggiunti": true
+    },
+    {
+      "barcode": "4056489983507",
+      "cartella": "",
+      "categoria": "solido",
+      "certezza": "CERTO",
+      "colore": "ROSSO",
+      "data": "2026-08-13",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "prodotto-1786647506628.jpg",
+      "fotoTabella": "",
+      "ingredienti": "55% Weizenvollkornmehl, Wasser, Weizengluten, Rapsöl, Feuchthaltemittel: Glycerin; Reiseiweißisolat, Erbseneiweißisolat, Speisesalz, Backtriebmittel: Natriumcarbonate; Emulgator: Mono - und Diglyceride von Speisefettsäuren; Säureregulator: Citronensäure; Stabilisator: Xanthan; Konservierungsstoffe: Calciumpropionat, Kaliumsorbat; Mehlbehandlungsmittel: L-Cystein.",
+      "marca": "Snack Day",
+      "motivo": "sale a 1,08, oltre la soglia",
+      "nome": "High Protein Wraps (Snack Day)",
+      "porzioneDichiarata": 80,
+      "tipo": "PANE",
+      "valori": {
+        "carboidrati": 37.0,
+        "proteine": 18.0,
+        "kcal": 293.0,
+        "saturi": 1.4,
+        "sale": 1.08,
+        "zuccheri": 1.5,
+        "fibre": 6.0,
+        "grassi": 7.0
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
