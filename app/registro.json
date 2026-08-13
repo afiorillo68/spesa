@@ -1,5 +1,6 @@
 {
   "cartelle": [
+    "Formaggi",
     "Yogurt"
   ],
   "scansioni": [
@@ -120,35 +121,6 @@
       "zuccheriAggiunti": false
     },
     {
-      "barcode": "4019300161768",
-      "cartella": "",
-      "categoria": "latticino",
-      "certezza": "CERTO",
-      "colore": "VERDE",
-      "data": "2026-08-13",
-      "fonteTipo": "Open Food Facts",
-      "fonteValori": "openfoodfacts",
-      "fotoIngredienti": "",
-      "fotoProdotto": "prodotto-1786644099334.jpg",
-      "fotoTabella": "",
-      "ingredienti": "LATTE scremato, inulina, sale, ZUčchero, addensanti: farina di semi di carrube, carragenina, caglia, fermenti lattici, Ricco di proteine, Le proteine contribuiscono al mantenimento della massa muscolare, Adotta uno di cui acidi grassi saturi stile di vita sano, una dieta varia ed equilibrata con attività fisica e premiati con Fitline Fresco Cremoso, SENZA CONSERVANTI, SENZA GLUTINE, SOLO LATTE FRESCO DICHIARAZIONE NUTRIZIONALE: valori medi per 100g: Energia: 255KJ/60kcal Grassi: 0,2g  di cui acidi grassi saturi: 0,1g Carboidrati: 3,5g",
-      "marca": "exquisa",
-      "motivo": "voci tutte in fascia, sale al limite ma dentro",
-      "nome": "exquisa fitline",
-      "porzioneDichiarata": 8,
-      "tipo": "YOGURT",
-      "valori": {
-        "carboidrati": 3.5,
-        "proteine": 10.4,
-        "kcal": 62.0,
-        "saturi": 0.1,
-        "sale": 0.64,
-        "zuccheri": 3.5,
-        "grassi": 0.2
-      },
-      "zuccheriAggiunti": false
-    },
-    {
       "barcode": "4056489862376",
       "cartella": "",
       "categoria": "latticino",
@@ -175,6 +147,35 @@
         "zuccheri": 2.8,
         "fibre": 0.0,
         "grassi": 0.9
+      },
+      "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "4019300161768",
+      "cartella": "Formaggi",
+      "categoria": "latticino",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-13",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "prodotto-1786644099334.jpg",
+      "fotoTabella": "",
+      "ingredienti": "LATTE scremato, inulina, sale, ZUčchero, addensanti: farina di semi di carrube, carragenina, caglia, fermenti lattici, Ricco di proteine, Le proteine contribuiscono al mantenimento della massa muscolare, Adotta uno di cui acidi grassi saturi stile di vita sano, una dieta varia ed equilibrata con attività fisica e premiati con Fitline Fresco Cremoso, SENZA CONSERVANTI, SENZA GLUTINE, SOLO LATTE FRESCO DICHIARAZIONE NUTRIZIONALE: valori medi per 100g: Energia: 255KJ/60kcal Grassi: 0,2g  di cui acidi grassi saturi: 0,1g Carboidrati: 3,5g",
+      "marca": "exquisa",
+      "motivo": "voci tutte in fascia, sale al limite ma dentro",
+      "nome": "exquisa fitline",
+      "porzioneDichiarata": 8,
+      "tipo": "YOGURT",
+      "valori": {
+        "carboidrati": 3.5,
+        "proteine": 10.4,
+        "kcal": 62.0,
+        "saturi": 0.1,
+        "sale": 0.64,
+        "zuccheri": 3.5,
+        "grassi": 0.2
       },
       "zuccheriAggiunti": false
     }
