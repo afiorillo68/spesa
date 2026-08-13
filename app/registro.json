@@ -1,0 +1,26 @@
+[
+  {
+    "barcode": "4056489258353",
+    "categoria": "solido",
+    "colore": "VERDE",
+    "data": "2026-08-13",
+    "fonteValori": "openfoodfacts",
+    "fotoIngredienti": "",
+    "fotoProdotto": "",
+    "fotoTabella": "",
+    "ingredienti": "lactose-free*** yoghurt product from skimmed milk with 12% raspberry-pomegranate preparation, with sweeteners, ingredients: skimmed milk, milk protein product, 5% raspberries, 1,5% pomegranate juice from pomegranate juice concentrate, stārke, colouring carrot concentrate, sweetener: erythrocytes (e968) , sucralose e955 , acesulfame k (e950) , yoghurt cultures (contains milk), lactase, natural flavouring,",
+    "marca": "Milbona",
+    "motivo": "voci tutte in fascia, proteine al limite ma dentro",
+    "nome": "Raspberry-Pomegranate Milk Product",
+    "valori": {
+      "carboidrati": 6.0,
+      "proteine": 10.0,
+      "kcal": 65.0,
+      "saturi": 0.2,
+      "sale": 0.22,
+      "zuccheri": 4.0,
+      "grassi": 0.3
+    },
+    "zuccheriAggiunti": false
+  }
+]
