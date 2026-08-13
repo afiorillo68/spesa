@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "nome": "Raspberry-Pomegranate Milk Product",
+    "colore": "verde",
+    "motivo": "voci tutte in fascia, proteine al limite ma dentro",
+    "data": "2026-08-13",
+    "barcode": "4056489258353",
+    "categoria": "solido",
+    "valori": {
+      "carboidrati": 6.0,
+      "proteine": 10.0,
+      "kcal": 65.0,
+      "saturi": 0.2,
+      "sale": 0.22,
+      "zuccheri": 4.0,
+      "grassi": 0.3
+    }
+  }
+]
