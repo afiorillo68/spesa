@@ -179,6 +179,36 @@
         "grassi": 17.0
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8003170084414",
+      "cartella": "",
+      "categoria": "solido",
+      "certezza": "CERTO",
+      "colore": "ROSSO",
+      "data": "2026-08-13",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "Semola integrale di grano duro. Può contenere tracce di sola.",
+      "marca": "Conad",
+      "motivo": "energia a 347, oltre la soglia",
+      "nome": "Cous cous integrale (Conad)",
+      "porzioneDichiarata": 0,
+      "tipo": "PASTA",
+      "valori": {
+        "carboidrati": 64.0,
+        "proteine": 13.0,
+        "kcal": 347.0,
+        "saturi": 0.5,
+        "sale": 0.0,
+        "zuccheri": 2.0,
+        "fibre": 8.9,
+        "grassi": 2.3
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
