@@ -1,23 +1,90 @@
 {
-  "versione": "2026-08-13",
+  "versione": "2026-08-14",
   "nota": "Derivato da 2026-08-13-tabella-nutrizionale-gdo.md, che resta la fonte. direzione max = valori bassi buoni; direzione min = valori alti buoni. verde = soglia entro cui e' verde; rosso = soglia oltre cui e' rosso.",
-  "priorita": ["saturi", "sale", "zuccheri", "grassi", "kcal"],
-  "alta_priorita": ["saturi", "sale", "zuccheri"],
+  "priorita": [
+    "saturi",
+    "sale",
+    "zuccheri",
+    "grassi",
+    "kcal"
+  ],
+  "alta_priorita": [
+    "saturi",
+    "sale",
+    "zuccheri"
+  ],
   "voci": {
-    "kcal": { "etichetta": "Energia", "unita": "kcal", "direzione": "max", "verde": 120, "rosso": 250 },
-    "grassi": { "etichetta": "Grassi", "unita": "g", "direzione": "max", "verde": 3, "rosso": 10 },
-    "saturi": { "etichetta": "di cui saturi", "unita": "g", "direzione": "max", "verde": 1.5, "rosso": 3 },
-    "carboidrati": { "etichetta": "Carboidrati", "unita": "g", "direzione": "max", "verde": 20, "rosso": 45 },
-    "zuccheri": { "etichetta": "di cui zuccheri", "unita": "g", "direzione": "max", "verde": 5, "rosso": 10 },
-    "fibre": { "etichetta": "Fibre", "unita": "g", "direzione": "min", "verde": 6, "rosso": 3 },
-    "proteine": { "etichetta": "Proteine", "unita": "g", "direzione": "min", "verde": 12, "rosso": 6 },
-    "sale": { "etichetta": "Sale", "unita": "g", "direzione": "max", "verde": 0.3, "rosso": 1.0 }
+    "kcal": {
+      "etichetta": "Energia",
+      "unita": "kcal",
+      "direzione": "max",
+      "verde": 120,
+      "rosso": 350
+    },
+    "grassi": {
+      "etichetta": "Grassi",
+      "unita": "g",
+      "direzione": "max",
+      "verde": 3,
+      "rosso": 10
+    },
+    "saturi": {
+      "etichetta": "di cui saturi",
+      "unita": "g",
+      "direzione": "max",
+      "verde": 1.5,
+      "rosso": 3
+    },
+    "carboidrati": {
+      "etichetta": "Carboidrati",
+      "unita": "g",
+      "direzione": "max",
+      "verde": 20,
+      "rosso": 45
+    },
+    "zuccheri": {
+      "etichetta": "di cui zuccheri",
+      "unita": "g",
+      "direzione": "max",
+      "verde": 5,
+      "rosso": 10
+    },
+    "fibre": {
+      "etichetta": "Fibre",
+      "unita": "g",
+      "direzione": "min",
+      "verde": 6,
+      "rosso": 3
+    },
+    "proteine": {
+      "etichetta": "Proteine",
+      "unita": "g",
+      "direzione": "min",
+      "verde": 12,
+      "rosso": 6
+    },
+    "sale": {
+      "etichetta": "Sale",
+      "unita": "g",
+      "direzione": "max",
+      "verde": 0.3,
+      "rosso": 1.0
+    }
   },
   "liquidi": {
     "nota": "Scala per 100 ml: sostituisce quella dei solidi sulle voci indicate. Sugli zuccheri la tabella dice «<= 2,5 accettabile, > 5 mai» e «l'obiettivo reale e' 0»: accettabile non e' verde, quindi il verde sta a 0,5 e la fascia 0,5-5 e' gialla.",
-    "zuccheri": { "verde": 0.5, "rosso": 5 },
-    "grassi": { "verde": 1.5, "rosso": 8.75 },
-    "saturi": { "verde": 0.75, "rosso": 2.5 }
+    "zuccheri": {
+      "verde": 0.5,
+      "rosso": 5
+    },
+    "grassi": {
+      "verde": 1.5,
+      "rosso": 8.75
+    },
+    "saturi": {
+      "verde": 0.75,
+      "rosso": 2.5
+    }
   },
   "giornaliero": {
     "saturi": 15,
@@ -33,7 +100,9 @@
     "latticino": {
       "nome": "Latticino bianco",
       "descrizione": "Zuccheri intrinseci (lattosio) esclusi se non aggiunti; proteine sulla scala dei liquidi; fibre non applicabili.",
-      "ignora": ["fibre"],
+      "ignora": [
+        "fibre"
+      ],
       "proteine_scala_liquidi": true,
       "zuccheri_intrinseci": true
     },
@@ -46,19 +115,72 @@
       "nome": "Bevanda o succo",
       "descrizione": "Scala per 100 ml. Nei succhi gli zuccheri della frutta contano per intero.",
       "scala_liquidi": true,
-      "ignora": ["fibre", "proteine"],
+      "ignora": [
+        "fibre",
+        "proteine"
+      ],
       "nessuna_clemenza": true
     },
     "condimento": {
       "nome": "Condimento (si usa a grammi)",
       "descrizione": "Olio, spezie, aceto, senape, dado: si guarda solo il sale.",
-      "solo": ["sale"]
+      "solo": [
+        "sale"
+      ]
     },
     "grasso_buono": {
       "nome": "Frutta secca o pesce azzurro",
       "descrizione": "Calorie e grassi alti non bocciano: il profilo e' insaturo. Restano saturi e sale.",
-      "ignora": ["kcal", "grassi", "carboidrati"]
+      "ignora": [
+        "kcal",
+        "grassi",
+        "carboidrati"
+      ]
+    },
+    "secco": {
+      "nome": "Cereali, pasta o legumi secchi",
+      "descrizione": "Valori riferiti al crudo: si riportano alla porzione reale, perche' 100 g di cous cous secco non sono un piatto.",
+      "fattore_crudo": 2.5,
+      "ignora": [
+        "proteine"
+      ]
     }
   },
-  "proteine_liquidi": { "verde": 6, "rosso": 2.5 }
+  "proteine_liquidi": {
+    "verde": 6,
+    "rosso": 2.5
+  },
+  "porzioni": {
+    "_nota": "Grammi (o ml) di una porzione tipica, per categoria. Servono a comporre un pasto dai valori per 100 g.",
+    "solido": 100,
+    "latticino": 125,
+    "liquido": 200,
+    "condimento": 10,
+    "grasso_buono": 25,
+    "frutta": 150,
+    "secco": 70
+  },
+  "pasti": {
+    "_nota": "STIME, non prescrizioni: nessun target calorico e' stato dato dal medico. Da rivedere con la dott.ssa Morelli, insieme al resto.",
+    "kcal_giorno": 1800,
+    "proteine_giorno": 95,
+    "quote": {
+      "colazione": {
+        "kcal": 0.2,
+        "elementi_max": 3
+      },
+      "pranzo": {
+        "kcal": 0.35,
+        "elementi_max": 4
+      },
+      "spuntino": {
+        "kcal": 0.1,
+        "elementi_max": 2
+      },
+      "cena": {
+        "kcal": 0.35,
+        "elementi_max": 4
+      }
+    }
+  }
 }
