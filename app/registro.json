@@ -59,6 +59,36 @@
         "grassi": 0.3
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "",
+      "cartella": "",
+      "categoria": "latticino",
+      "certezza": "DEDOTTO",
+      "colore": "ROSSO",
+      "data": "2026-08-13",
+      "fonteTipo": "nome e ingredienti",
+      "fonteValori": "ocr",
+      "fotoIngredienti": "ingredienti-1786643776425.jpg",
+      "fotoProdotto": "prodotto-1786643776287.jpg",
+      "fotoTabella": "tabella-1786643776361.jpg",
+      "ingredienti": "consumare interamente il prodotto. Una volta aperta la confezione, Conservare in frigorifero tra 0°C e +4°C. Da consumare entro: vedi top film. Confezionato in atmosfera protettiva. Non forare la confezione. 180ge \u0027AR\u003dAue Sale Protene ORIGINE DEL LATTE: ITALIA. Ingredienti: LATTE di capra pastorizzato, fermenti lattici, sale. PRIMOSALE DI CAPRA - FORMAGGIO FRESCO DA LATTE DI CAPRA apoural",
+      "marca": "Pascoli Italiani",
+      "motivo": "saturi a 13, oltre la soglia",
+      "nome": "ITALIANI Lascoli 4-0E Primosale di Capra (Pascoli Italiani)",
+      "porzioneDichiarata": 0,
+      "tipo": "YOGURT",
+      "valori": {
+        "carboidrati": 2.5,
+        "proteine": 15.0,
+        "kcal": 223.0,
+        "saturi": 13.0,
+        "sale": 0.75,
+        "zuccheri": 1.4,
+        "fibre": 0.0,
+        "grassi": 17.0
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
