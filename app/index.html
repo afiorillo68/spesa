@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#2c5364">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icona-192.png">
+<title>Semaforo spesa</title>
+<style>
+  :root {
+    --bg: #fff; --fg: #1a1a1a; --bordo: #c3ccd3; --testa: #e8eef3; --tenue: #667581;
+    --verde: #1c7c3a; --giallo: #a8760a; --rosso: #b3271e;
+    --verde-bg: #e6f4e6; --giallo-bg: #fdf6e3; --rosso-bg: #fbe9e7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14191d; --fg: #e6e9ec; --bordo: #3a464f; --testa: #24313a; --tenue: #9aa6b0;
+      --verde: #6ed08a; --giallo: #e3bc63; --rosso: #f08b80;
+      --verde-bg: #1e3524; --giallo-bg: #3a3220; --rosso-bg: #3d2320;
+    }
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  body { font-family: -apple-system, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--fg);
+         margin: 0; padding: 0 0 76px 0; font-size: 16px; line-height: 1.4; }
+  header { padding: 12px 14px 8px; }
+  h1 { font-size: 18px; margin: 0; }
+  .sub { font-size: 12.5px; color: var(--tenue); margin-top: 2px; }
+  main { padding: 0 14px; max-width: 780px; margin: 0 auto; }
+  nav { position: fixed; bottom: 0; left: 0; right: 0; display: flex; background: var(--testa);
+        border-top: 1px solid var(--bordo); padding-bottom: env(safe-area-inset-bottom); }
+  nav button { flex: 1; background: none; border: none; color: var(--tenue); font-size: 12.5px;
+               padding: 10px 4px 12px; font-family: inherit; cursor: pointer; }
+  nav button.on { color: var(--fg); font-weight: 600; box-shadow: inset 0 2px 0 var(--fg); }
+  nav button b { display: block; font-size: 19px; font-weight: 400; margin-bottom: 1px; }
+  section { display: none; }
+  section.on { display: block; }
+  button.big { display: block; width: 100%; padding: 15px; font-size: 16px; font-family: inherit;
+               border: 1px solid var(--bordo); border-radius: 10px; background: var(--testa);
+               color: var(--fg); margin: 10px 0; cursor: pointer; }
+  button.primario { background: #2c5364; color: #fff; border-color: #2c5364; font-weight: 600; }
+  input, select { font-family: inherit; font-size: 16px; padding: 9px 10px; border: 1px solid var(--bordo);
+                  border-radius: 8px; background: var(--bg); color: var(--fg); width: 100%; }
+  label { display: block; font-size: 12.5px; color: var(--tenue); margin-bottom: 3px; }
+  .griglia { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; margin: 10px 0; }
+  .campo { min-width: 0; }
+  .campo.v input { border-color: var(--verde); }
+  .campo.g input { border-color: var(--giallo); }
+  .campo.r input { border-color: var(--rosso); border-width: 2px; }
+  .semaforo { border-radius: 12px; padding: 16px; margin: 12px 0; border: 2px solid; }
+  .semaforo h2 { margin: 0 0 4px 0; font-size: 21px; }
+  .semaforo p { margin: 0; font-size: 14.5px; }
+  .verde { background: var(--verde-bg); border-color: var(--verde); }
+  .verde h2 { color: var(--verde); }
+  .giallo { background: var(--giallo-bg); border-color: var(--giallo); }
+  .giallo h2 { color: var(--giallo); }
+  .rosso { background: var(--rosso-bg); border-color: var(--rosso); }
+  .rosso h2 { color: var(--rosso); }
+  #anteprima { width: 100%; border-radius: 10px; margin: 8px 0; display: none; }
+  .stato { font-size: 13px; color: var(--tenue); margin: 6px 0; min-height: 18px; }
+  .voce { border: 1px solid var(--bordo); border-radius: 10px; padding: 10px 12px; margin-bottom: 8px; }
+  .voce b { display: block; font-size: 15px; }
+  .voce span { font-size: 13px; color: var(--tenue); }
+  .voce.verde { border-left: 5px solid var(--verde); }
+  .voce.giallo { border-left: 5px solid var(--giallo); }
+  .voce.rosso { border-left: 5px solid var(--rosso); }
+  h3 { font-size: 15px; margin: 18px 0 8px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  th, td { border: 1px solid var(--bordo); padding: 5px 6px; text-align: left; }
+  th { background: var(--testa); }
+  .dett { font-size: 13.5px; }
+  .dett dt { color: var(--tenue); font-size: 12px; margin-top: 6px; }
+  .dett dd { margin: 0; }
+  dialog { border: 1px solid var(--bordo); border-radius: 12px; background: var(--bg); color: var(--fg);
+           max-width: 92vw; width: 420px; padding: 16px; }
+  dialog::backdrop { background: rgba(0,0,0,.55); }
+  .riga { display: flex; gap: 8px; align-items: center; }
+  .riga input[type=checkbox] { width: auto; }
+  .avviso { font-size: 12.5px; color: var(--tenue); border-left: 3px solid var(--bordo); padding-left: 9px; margin: 10px 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1 id="titolo">Semaforo spesa</h1>
+  <div class="sub" id="sottotitolo">soglie in caricamento…</div>
+</header>
+
+<main>
+
+<section id="sez-scansiona" class="on">
+  <label for="foto">Fotografa la tabella nutrizionale</label>
+  <input type="file" id="foto" accept="image/*" capture="environment" style="display:none">
+  <button class="big primario" onclick="document.getElementById('foto').click()">📷 Scatta o scegli la foto</button>
+  <img id="anteprima" alt="">
+  <div class="stato" id="stato"></div>
+
+  <div class="riga" style="margin:10px 0">
+    <div style="flex:1">
+      <label for="nome">Prodotto</label>
+      <input id="nome" placeholder="es. Yogurt greco 0% (Lidl)">
+    </div>
+  </div>
+
+  <div class="riga" style="margin:10px 0">
+    <div style="flex:1">
+      <label for="categoria">Tipo di alimento</label>
+      <select id="categoria"></select>
+    </div>
+  </div>
+
+  <div class="riga" style="margin:8px 0 2px">
+    <input type="checkbox" id="aggiunti">
+    <label for="aggiunti" style="margin:0">Gli ingredienti dichiarano <b>zucchero aggiunto</b> (sciroppi, destrosio, maltodestrine, «zuccherato»…)</label>
+  </div>
+
+  <div class="griglia" id="campi"></div>
+
+  <div id="esito"></div>
+  <button class="big" id="salva" style="display:none">Salva nel registro</button>
+  <div class="avviso">I valori sono per 100 g (o 100 ml). L'OCR sbaglia spesso su etichette curve o lucide: <b>controlla i numeri prima di decidere</b>.</div>
+</section>
+
+<section id="sez-registro">
+  <div id="lista-registro"></div>
+  <button class="big" id="esporta">Copia le mie scansioni (JSON)</button>
+  <div class="avviso">Le scansioni fatte qui restano sul telefono. Il pulsante copia negli appunti solo quelle nuove: incollandole in chat finiscono nel registro pubblicato.</div>
+</section>
+
+<section id="sez-soglie">
+  <div id="tab-soglie"></div>
+</section>
+
+</main>
+
+<nav>
+  <button data-sez="scansiona" class="on"><b>📷</b>Scansiona</button>
+  <button data-sez="registro"><b>📋</b>Registro</button>
+  <button data-sez="soglie"><b>📊</b>Soglie</button>
+</nav>
+
+<dialog id="dialogo"><div id="dialogo-corpo"></div>
+  <button class="big" onclick="document.getElementById('dialogo').close()">Chiudi</button>
+</dialog>
+
+<script src="https://cdn.jsdelivr.net/npm/tesseract.js@5.1.1/dist/tesseract.min.js"></script>
+<script>
+const VOCI = ["kcal","grassi","saturi","carboidrati","zuccheri","fibre","proteine","sale"];
+let SOGLIE = null, REMOTO = [], fotoDati = null;
+const locali = () => JSON.parse(localStorage.getItem("scansioni") || "[]");
+const salvaLocali = (v) => localStorage.setItem("scansioni", JSON.stringify(v));
+
+/* ---------- soglie ---------- */
+async function caricaSoglie() {
+  try {
+    const r = await fetch("soglie.json", { cache: "no-cache" });
+    SOGLIE = await r.json();
+    localStorage.setItem("soglie", JSON.stringify(SOGLIE));
+  } catch (e) {
+    SOGLIE = JSON.parse(localStorage.getItem("soglie") || "null");
+  }
+  if (!SOGLIE) { document.getElementById("sottotitolo").textContent = "soglie non disponibili — serve una connessione al primo avvio"; return; }
+  document.getElementById("sottotitolo").textContent = "soglie del " + SOGLIE.versione + " · valori per 100 g";
+  const sel = document.getElementById("categoria");
+  sel.innerHTML = Object.entries(SOGLIE.categorie)
+    .map(([k, c]) => `<option value="${k}">${c.nome}</option>`).join("");
+  disegnaCampi();
+  disegnaSoglie();
+}
+
+/* ---------- motore del semaforo: replica la skill ---------- */
+function fasciaVoce(voce, valore, cat) {
+  const c = SOGLIE.categorie[cat] || {};
+  if (c.solo && !c.solo.includes(voce)) return null;
+  if (c.ignora && c.ignora.includes(voce)) return null;
+  if (valore === null || valore === undefined || valore === "") return null;
+
+  let def = SOGLIE.voci[voce];
+  if ((c.scala_liquidi || cat === "liquido") && SOGLIE.liquidi[voce]) {
+    def = Object.assign({}, def, SOGLIE.liquidi[voce]);
+  }
+  if (voce === "proteine" && (c.proteine_scala_liquidi || c.scala_liquidi)) {
+    def = Object.assign({}, def, SOGLIE.proteine_liquidi);
+  }
+  // zuccheri intrinseci: contano solo se gli ingredienti li dichiarano aggiunti
+  if (voce === "zuccheri" && c.zuccheri_intrinseci && !document.getElementById("aggiunti").checked) return null;
+
+  const v = parseFloat(valore);
+  if (def.direzione === "max") return v <= def.verde ? "verde" : (v > def.rosso ? "rosso" : "giallo");
+  return v >= def.verde ? "verde" : (v < def.rosso ? "rosso" : "giallo");
+}
+
+function giudica(valori, cat) {
+  const fasce = {};
+  VOCI.forEach(v => { const f = fasciaVoce(v, valori[v], cat); if (f) fasce[v] = f; });
+  const rossi = Object.keys(fasce).filter(v => fasce[v] === "rosso");
+  const gialli = Object.keys(fasce).filter(v => fasce[v] === "giallo");
+  const grave = rossi.filter(v => SOGLIE.alta_priorita.includes(v));
+
+  // In una bevanda quasi tutte le voci sono zero per costruzione: la clemenza della
+  // singola gialla si appoggerebbe su zeri che non sono virtu'. Li' una gialla ad
+  // alta priorita' basta a togliere il verde.
+  const clemenza = !(SOGLIE.categorie[cat] || {}).nessuna_clemenza;
+  const gialloGrave = gialli.some(v => SOGLIE.alta_priorita.includes(v));
+
+  let colore = "verde";
+  if (grave.length || rossi.length >= 2) colore = "rosso";
+  else if (rossi.length === 1 || gialli.length >= 2 || (!clemenza && gialloGrave)) colore = "giallo";
+
+  // la voce che decide: la peggiore secondo l'ordine di priorita'
+  const ordine = SOGLIE.priorita;
+  const candidate = rossi.length ? rossi : gialli;
+  candidate.sort((a, b) => (ordine.indexOf(a) + 99 * (ordine.indexOf(a) < 0)) - (ordine.indexOf(b) + 99 * (ordine.indexOf(b) < 0)));
+  return { colore, decide: candidate[0] || null, fasce, rossi, gialli };
+}
+
+function motivo(g, valori, cat) {
+  if (!g.decide) return "tutte le voci dentro le soglie";
+  const et = SOGLIE.voci[g.decide].etichetta.toLowerCase().replace("di cui ", "");
+  const v = valori[g.decide];
+  if (g.colore === "verde") return "voci tutte in fascia, " + et + " al limite ma dentro";
+  const testo = et + " a " + String(v).replace(".", ",") + " g/100";
+  return g.colore === "rosso" ? testo + ", oltre la soglia" : testo + ", al limite";
+}
+
+/* ---------- interfaccia ---------- */
+function disegnaCampi() {
+  document.getElementById("campi").innerHTML = VOCI.map(v =>
+    `<div class="campo" id="campo-${v}"><label for="in-${v}">${SOGLIE.voci[v].etichetta} (${SOGLIE.voci[v].unita})</label>
+     <input id="in-${v}" type="text" inputmode="decimal" placeholder="—"></div>`).join("");
+  VOCI.forEach(v => document.getElementById("in-" + v).addEventListener("input", valuta));
+  document.getElementById("categoria").addEventListener("change", valuta);
+  document.getElementById("aggiunti").addEventListener("change", valuta);
+}
+
+function leggiCampi() {
+  const o = {};
+  VOCI.forEach(v => {
+    const t = document.getElementById("in-" + v).value.replace(",", ".").trim();
+    o[v] = t === "" ? null : parseFloat(t);
+    if (Number.isNaN(o[v])) o[v] = null;
+  });
+  return o;
+}
+
+function valuta() {
+  if (!SOGLIE) return;
+  const valori = leggiCampi(), cat = document.getElementById("categoria").value;
+  const pieni = VOCI.filter(v => valori[v] !== null).length;
+  VOCI.forEach(v => {
+    const f = fasciaVoce(v, valori[v], cat);
+    document.getElementById("campo-" + v).className = "campo " + (f ? f[0] : "");
+  });
+  const box = document.getElementById("esito");
+  if (pieni < 3) { box.innerHTML = ""; document.getElementById("salva").style.display = "none"; return; }
+  const g = giudica(valori, cat);
+  const testi = { verde: ["🟢 Consigliato", "verde"], giallo: ["🟡 Se proprio devi", "giallo"], rosso: ["🔴 Lascia perdere", "rosso"] };
+  box.innerHTML = `<div class="semaforo ${g.colore}"><h2>${testi[g.colore][0]}</h2><p>${motivo(g, valori, cat)}</p></div>`;
+  document.getElementById("salva").style.display = "block";
+}
+
+/* ---------- OCR ---------- */
+document.getElementById("foto").addEventListener("change", async (e) => {
+  const file = e.target.files[0];
+  if (!file) return;
+  const img = document.getElementById("anteprima");
+  const url = URL.createObjectURL(file);
+  img.src = url; img.style.display = "block";
+  fotoDati = await miniatura(file);
+  const stato = document.getElementById("stato");
+  if (typeof Tesseract === "undefined") { stato.textContent = "OCR non disponibile offline al primo uso: inserisci i valori a mano."; return; }
+  stato.textContent = "lettura in corso…";
+  try {
+    const r = await Tesseract.recognize(url, "ita", {
+      logger: m => { if (m.status === "recognizing text") stato.textContent = "lettura… " + Math.round(m.progress * 100) + "%"; }
+    });
+    const trovati = estrai(r.data.text);
+    Object.entries(trovati).forEach(([k, v]) => { document.getElementById("in-" + k).value = String(v).replace(".", ","); });
+    const n = Object.keys(trovati).length;
+    stato.textContent = n ? `letti ${n} valori su 8 — controllali e correggi` : "nessun valore riconosciuto: inseriscili a mano";
+    valuta();
+  } catch (err) {
+    stato.textContent = "OCR fallito: inserisci i valori a mano";
+  }
+});
+
+async function miniatura(file) {
+  const bitmap = await createImageBitmap(file);
+  const lato = 480, s = Math.min(lato / bitmap.width, lato / bitmap.height, 1);
+  const c = document.createElement("canvas");
+  c.width = Math.round(bitmap.width * s); c.height = Math.round(bitmap.height * s);
+  c.getContext("2d").drawImage(bitmap, 0, 0, c.width, c.height);
+  return c.toDataURL("image/jpeg", 0.6);
+}
+
+// parser dell'etichetta italiana: cerca l'etichetta della voce e prende il primo numero sulla riga
+const SINONIMI = {
+  kcal: [/kcal/i],
+  saturi: [/satur/i, /grassi\s+satur/i],
+  grassi: [/^\s*grassi/i, /\bgrassi\b/i, /lipidi/i],
+  zuccheri: [/zuccher/i],
+  carboidrati: [/carboidrat/i, /glucidi/i],
+  fibre: [/fibr/i],
+  proteine: [/protein/i],
+  sale: [/\bsale\b/i, /\bsodio\b/i]
+};
+function estrai(testo) {
+  const righe = testo.split(/\r?\n/).map(r => r.trim()).filter(Boolean);
+  const out = {};
+  for (const riga of righe) {
+    for (const voce of ["saturi", "zuccheri", "carboidrati", "fibre", "proteine", "sale", "grassi", "kcal"]) {
+      if (out[voce] !== undefined) continue;
+      if (!SINONIMI[voce].some(re => re.test(riga))) continue;
+      // "di cui" senza il nome della voce non decide da solo
+      if (voce === "grassi" && /satur/i.test(riga)) continue;
+      if (voce === "carboidrati" && /zuccher/i.test(riga)) continue;
+      let numeri = [...riga.matchAll(/(\d+[.,]?\d*)\s*(kcal|kj|mg|g)?/gi)]
+        .map(m => ({ n: parseFloat(m[1].replace(",", ".")), u: (m[2] || "").toLowerCase() }))
+        .filter(x => !Number.isNaN(x.n));
+      if (voce === "kcal") { const k = numeri.find(x => x.u === "kcal"); if (k) out.kcal = k.n; continue; }
+      numeri = numeri.filter(x => x.u !== "kj" && x.u !== "kcal");
+      if (!numeri.length) continue;
+      let v = numeri[0].n;
+      if (numeri[0].u === "mg" && voce === "sale") v = v / 1000;
+      if (voce === "sale" && /sodio/i.test(riga) && !/\bsale\b/i.test(riga)) v = v * 2.5;
+      out[voce] = Math.round(v * 100) / 100;
+    }
+  }
+  return out;
+}
+
+/* ---------- salvataggio e registro ---------- */
+document.getElementById("salva").addEventListener("click", () => {
+  const nome = document.getElementById("nome").value.trim();
+  if (!nome) { document.getElementById("nome").focus(); return; }
+  const valori = leggiCampi(), cat = document.getElementById("categoria").value;
+  const g = giudica(valori, cat);
+  const voce = {
+    nome, colore: g.colore, motivo: motivo(g, valori, cat), valori, categoria: cat,
+    zuccheri_aggiunti: document.getElementById("aggiunti").checked,
+    data: new Date().toISOString().slice(0, 10), foto: fotoDati, locale: true
+  };
+  const reg = locali().filter(v => v.nome.toLowerCase().trim() !== nome.toLowerCase());
+  reg.push(voce); salvaLocali(reg);
+  document.querySelector('nav button[data-sez="registro"]').click();
+  nuovaScansione();
+});
+
+function nuovaScansione() {
+  document.getElementById("nome").value = "";
+  VOCI.forEach(v => document.getElementById("in-" + v).value = "");
+  document.getElementById("aggiunti").checked = false;
+  document.getElementById("anteprima").style.display = "none";
+  document.getElementById("stato").textContent = "";
+  document.getElementById("esito").innerHTML = "";
+  document.getElementById("salva").style.display = "none";
+  fotoDati = null;
+}
+
+async function caricaRemoto() {
+  try {
+    const r = await fetch("scansioni.json", { cache: "no-cache" });
+    REMOTO = await r.json();
+    localStorage.setItem("remoto", JSON.stringify(REMOTO));
+  } catch (e) { REMOTO = JSON.parse(localStorage.getItem("remoto") || "[]"); }
+  disegnaRegistro();
+}
+
+function disegnaRegistro() {
+  const tutti = [...locali(), ...REMOTO.filter(r => !locali().some(l => l.nome.toLowerCase() === r.nome.toLowerCase()))];
+  const sezioni = [["verde", "🟢 Consigliati"], ["giallo", "🟡 Se proprio devi"], ["rosso", "🔴 Lascia perdere"]];
+  document.getElementById("lista-registro").innerHTML = sezioni.map(([c, t]) => {
+    const voci = tutti.filter(v => v.colore === c).sort((a, b) => a.nome.localeCompare(b.nome));
+    return `<h3>${t} <span style="font-weight:400;color:var(--tenue)">(${voci.length})</span></h3>` +
+      (voci.length ? voci.map((v, i) =>
+        `<div class="voce ${c}" data-nome="${encodeURIComponent(v.nome)}"><b>${v.nome}${v.locale ? " ·" : ""}</b><span>${v.motivo || ""}</span></div>`).join("")
+        : `<div class="avviso">nessun prodotto</div>`);
+  }).join("");
+  document.querySelectorAll(".voce").forEach(el => el.addEventListener("click", () => mostraDettaglio(decodeURIComponent(el.dataset.nome), tutti)));
+}
+
+function mostraDettaglio(nome, tutti) {
+  const v = tutti.find(x => x.nome === nome);
+  if (!v) return;
+  const righe = VOCI.filter(k => v.valori && v.valori[k] !== null && v.valori[k] !== undefined)
+    .map(k => `<tr><td>${SOGLIE.voci[k].etichetta}</td><td>${String(v.valori[k]).replace(".", ",")} ${SOGLIE.voci[k].unita}</td></tr>`).join("");
+  document.getElementById("dialogo-corpo").innerHTML =
+    `<h3 style="margin-top:0">${v.nome}</h3>
+     <div class="semaforo ${v.colore}" style="padding:10px"><p>${v.motivo || ""}</p></div>
+     ${v.foto ? `<img src="${v.foto}" style="width:100%;border-radius:8px;margin:8px 0">` : ""}
+     ${righe ? `<table>${righe}</table>` : `<div class="avviso">valori non archiviati per questo prodotto</div>`}
+     <dl class="dett"><dt>Scansione</dt><dd>${v.data || "—"}</dd>
+     ${v.categoria ? `<dt>Tipo</dt><dd>${SOGLIE.categorie[v.categoria].nome}</dd>` : ""}</dl>`;
+  document.getElementById("dialogo").showModal();
+}
+
+document.getElementById("esporta").addEventListener("click", async () => {
+  const nuove = locali().map(({ foto, locale, ...resto }) => resto);
+  if (!nuove.length) { alert("nessuna scansione locale da esportare"); return; }
+  const testo = JSON.stringify(nuove, null, 1);
+  try { await navigator.clipboard.writeText(testo); alert(nuove.length + " scansioni copiate negli appunti"); }
+  catch (e) { prompt("copia questo testo:", testo); }
+});
+
+function disegnaSoglie() {
+  const fila = (k) => {
+    const d = SOGLIE.voci[k], max = d.direzione === "max";
+    return `<tr><td>${d.etichetta}</td><td>${max ? "≤" : "≥"} ${String(d.verde).replace(".", ",")}</td>
+            <td>${max ? "> " + String(d.rosso).replace(".", ",") : "< " + String(d.rosso).replace(".", ",")}</td></tr>`;
+  };
+  document.getElementById("tab-soglie").innerHTML =
+    `<h3>Per 100 g — solidi</h3><table><thead><tr><th>Voce</th><th>🟢 verde</th><th>🔴 rosso</th></tr></thead>
+     <tbody>${VOCI.map(fila).join("")}</tbody></table>
+     <h3>Per 100 ml — bevande</h3><table><tbody>
+     ${Object.entries(SOGLIE.liquidi).filter(([k]) => k !== "nota").map(([k, d]) =>
+      `<tr><td>${SOGLIE.voci[k].etichetta}</td><td>≤ ${String(d.verde).replace(".", ",")}</td><td>> ${String(d.rosso).replace(".", ",")}</td></tr>`).join("")}
+     </tbody></table>
+     <h3>Limiti giornalieri</h3><table><tbody>
+     ${Object.entries(SOGLIE.giornaliero).map(([k, v]) =>
+      `<tr><td>${SOGLIE.voci[k].etichetta}</td><td>${k === "fibre" ? "≥" : "<"} ${String(v).replace(".", ",")} g</td></tr>`).join("")}
+     </tbody></table>
+     <h3>Priorità quando due voci confliggono</h3>
+     <p style="font-size:13.5px">${SOGLIE.priorita.map(p => SOGLIE.voci[p].etichetta.replace("di cui ", "")).join(" → ")}</p>
+     <p style="font-size:13px;color:var(--tenue)">Le soglie sono tarate su un profilo clinico specifico e non sono generalizzabili.
+     Versione ${SOGLIE.versione} — <a href="../">tabella completa con il razionale</a>.</p>`;
+}
+
+/* ---------- navigazione ---------- */
+document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll("nav button").forEach(x => x.classList.remove("on"));
+  document.querySelectorAll("section").forEach(x => x.classList.remove("on"));
+  b.classList.add("on");
+  document.getElementById("sez-" + b.dataset.sez).classList.add("on");
+  if (b.dataset.sez === "registro") disegnaRegistro();
+  scrollTo(0, 0);
+}));
+
+if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js");
+caricaSoglie().then(caricaRemoto).then(() => { if (location.search.includes("test")) autotest(); });
+
+/* Verifica: il motore deve dare gli stessi colori assegnati a mano sui prodotti gia' giudicati.
+   Si attiva solo con ?test in coda all'URL. */
+function autotest() {
+  const casi = [
+    ["Kefir bianco naturale", "latticino", 0, { kcal: 44, grassi: 1.5, saturi: 0.9, carboidrati: 4, zuccheri: 4, proteine: 3.5, sale: 0.10 }, "verde"],
+    ["Yogurt magro vit.D", "latticino", 0, { kcal: 46, grassi: 0.1, saturi: 0, carboidrati: 4, zuccheri: 4, proteine: 6.8, sale: 0.18 }, "verde"],
+    ["Bevanda ananas-cocco", "liquido", 1, { kcal: 82, grassi: 3.2, saturi: 2.9, carboidrati: 11.6, zuccheri: 11, fibre: 0.7, proteine: 0.9, sale: 0.01 }, "rosso"],
+    ["Budino Choco&Banana", "latticino", 1, { kcal: 94, grassi: 2.3, saturi: 1.6, carboidrati: 10.6, zuccheri: 3.8, proteine: 7.9, sale: 0.24 }, "verde"],
+    ["Sushi misto", "solido", 1, { kcal: 142, grassi: 3.9, saturi: 0.8, carboidrati: 21.2, zuccheri: 5.4, proteine: 4.9, sale: 1.44 }, "rosso"],
+    ["Formaggio in salamoia", "latticino", 0, { kcal: 276, grassi: 23, saturi: 16.1, carboidrati: 0.7, zuccheri: 0.7, proteine: 16.5, sale: 2.20 }, "rosso"],
+    ["Vasetto proteico", "latticino", 0, { kcal: 67, grassi: 0.9, saturi: 0.5, carboidrati: 2.8, zuccheri: 2.8, proteine: 11.8, sale: 0.85 }, "verde"],
+    ["Rice Pudding Chocolate", "latticino", 1, { kcal: 93, grassi: 2.3, saturi: 1.6, carboidrati: 10.6, zuccheri: 3.8, proteine: 7.9, sale: 0.23 }, "verde"],
+    ["Stracchino", "latticino", 0, { kcal: 169, grassi: 10, saturi: 6.3, carboidrati: 2.8, zuccheri: 2, proteine: 17, sale: 0.80 }, "rosso"],
+    ["Yogurt Melograno-Lampone", "latticino", 1, { kcal: 65, grassi: 0.3, saturi: 0.2, carboidrati: 6, zuccheri: 4, proteine: 10, sale: 0.22 }, "verde"],
+    ["Birra analcolica", "liquido", 1, { kcal: 27, grassi: 0, saturi: 0, carboidrati: 5.8, zuccheri: 3.3, proteine: 0.3, sale: 0.01 }, "giallo"],
+    ["Yogurt da bere cereali", "liquido", 1, { kcal: 64, grassi: 1.2, saturi: 0.8, carboidrati: 10, zuccheri: 9.9, fibre: 1, proteine: 2.8, sale: 0.10 }, "rosso"],
+  ];
+  const spunta = document.getElementById("aggiunti"), prima = spunta.checked;
+  const esiti = casi.map(([nome, cat, agg, valori, atteso]) => {
+    spunta.checked = !!agg;
+    const avuto = giudica(valori, cat).colore;
+    return { nome, atteso, avuto, ok: avuto === atteso };
+  });
+  spunta.checked = prima;
+  const ko = esiti.filter(e => !e.ok);
+  const esito = ko.length ? "FALLITO " + ko.map(e => `${e.nome}: atteso ${e.atteso}, avuto ${e.avuto}`).join(" | ")
+    : `OK ${esiti.length}/${esiti.length} prodotti coincidono con il giudizio a mano`;
+  document.title = "TEST " + esito;
+  document.body.insertAdjacentHTML("afterbegin", `<pre id="risultato-test" style="padding:10px;white-space:pre-wrap">TEST ${esito}</pre>`);
+  console.log("TEST " + esito);
+}
+</script>
+</body>
+</html>

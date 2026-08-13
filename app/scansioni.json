@@ -1,0 +1,170 @@
+[
+  {
+    "nome": "Kefir bianco naturale",
+    "colore": "verde",
+    "motivo": "grassi bassi e saturi sotto soglia, zuccheri solo lattosio",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 44,
+      "grassi": 1.5,
+      "saturi": 0.9,
+      "zuccheri": 4.0,
+      "proteine": 3.5,
+      "sale": 0.1
+    }
+  },
+  {
+    "nome": "Yogurt bianco magro con vitamina D (Nestlé)",
+    "colore": "verde",
+    "motivo": "grassi quasi assenti e saturi a zero, proteine alte",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 46,
+      "grassi": 0.1,
+      "saturi": 0.0,
+      "zuccheri": 4.0,
+      "proteine": 6.8,
+      "sale": 0.18
+    }
+  },
+  {
+    "nome": "Bevanda ananas-banana-cocco (Lidl)",
+    "colore": "rosso",
+    "motivo": "saturi del latte di cocco, e la bottiglia supera da sola il limite giornaliero di zuccheri",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 82,
+      "grassi": 3.2,
+      "saturi": 2.9,
+      "zuccheri": 11.0,
+      "proteine": 0.9,
+      "sale": 0.01
+    }
+  },
+  {
+    "nome": "Budino proteico Choco & Banana (Lidl)",
+    "colore": "verde",
+    "motivo": "saturi al limite ma dentro, zuccheri bassi con proteine alte",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 94,
+      "grassi": 2.3,
+      "saturi": 1.6,
+      "zuccheri": 3.8,
+      "proteine": 7.9,
+      "sale": 0.24
+    }
+  },
+  {
+    "nome": "Sushi misto (Lidl)",
+    "colore": "rosso",
+    "motivo": "sale oltre soglia, e la vaschetta ne vale una giornata e mezzo senza la salsa di soia",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 142,
+      "grassi": 3.9,
+      "saturi": 0.8,
+      "zuccheri": 5.4,
+      "proteine": 4.9,
+      "sale": 1.44
+    }
+  },
+  {
+    "nome": "Formaggio bianco in salamoia",
+    "colore": "rosso",
+    "motivo": "16 g di saturi per 100 g, cinque volte la soglia, con sale altrettanto alto",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 276,
+      "grassi": 23.0,
+      "saturi": 16.1,
+      "zuccheri": 0.7,
+      "proteine": 16.5,
+      "sale": 2.2
+    }
+  },
+  {
+    "nome": "Vasetto bianco proteico (Lidl)",
+    "colore": "verde",
+    "motivo": "proteine alte con grassi quasi assenti, solo il sale sopra la media di un latticino",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 67,
+      "grassi": 0.9,
+      "saturi": 0.5,
+      "zuccheri": 2.8,
+      "proteine": 11.8,
+      "sale": 0.85
+    }
+  },
+  {
+    "nome": "Rice Pudding Chocolate 15 g Protein (Lidl)",
+    "colore": "verde",
+    "motivo": "saturi al limite ma dentro, zuccheri bassi",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 93,
+      "grassi": 2.3,
+      "saturi": 1.6,
+      "zuccheri": 3.8,
+      "proteine": 7.9,
+      "sale": 0.23
+    }
+  },
+  {
+    "nome": "Stracchino (Lidl)",
+    "colore": "rosso",
+    "motivo": "6,3 g di saturi, il doppio del limite",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 169,
+      "grassi": 10.0,
+      "saturi": 6.3,
+      "zuccheri": 2.0,
+      "proteine": 17.0,
+      "sale": 0.8
+    }
+  },
+  {
+    "nome": "Yogurt proteico Melograno-Lampone (Lidl)",
+    "colore": "verde",
+    "motivo": "verde su tutte le voci",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 65,
+      "grassi": 0.3,
+      "saturi": 0.2,
+      "zuccheri": 4.0,
+      "proteine": 10.0,
+      "sale": 0.22
+    }
+  },
+  {
+    "nome": "Birra analcolica (Lidl)",
+    "colore": "giallo",
+    "motivo": "zuccheri sopra l obiettivo per una bevanda, e la lattina da mezzo litro ne porta due terzi della giornata",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 27,
+      "grassi": 0.0,
+      "saturi": 0.0,
+      "zuccheri": 3.3,
+      "proteine": 0.3,
+      "sale": 0.01
+    }
+  },
+  {
+    "nome": "Yogurt da bere con cereali integrali",
+    "colore": "rosso",
+    "motivo": "è zuccherato, e la bottiglia intera sfonda da sola il limite giornaliero di zuccheri",
+    "data": "2026-08-13",
+    "valori": {
+      "kcal": 64,
+      "grassi": 1.2,
+      "saturi": 0.8,
+      "zuccheri": 9.9,
+      "proteine": 2.8,
+      "sale": 0.1
+    }
+  }
+]
