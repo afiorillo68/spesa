@@ -625,6 +625,39 @@
         "sale": 0.23
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8057506070060",
+      "cartella": "",
+      "categoria": "secco",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-14",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "Acqua, frutto-oligosaccaridi, edulcoranti (maltitolo, eritritolo), cacao magro in polvere 8%, farina diastasata di riso, olio di cocco, inulina, emulsionant mono e-digliceridi degli acidi grassi, esteri dell\u0027 1,2 propandiolo degli acidi grassi addensanti (farina di semi di carrube, gomma di guar, metilcellulosa). Puo contenere: altra frutta a guscio, soia, latte (il prodotto è realizzato con ingredie vegetali, ma non è possibile escludere la presenza accidentale di piccole quantita Senza glutine. Naturalmente senza lattosio. Energia DICHIARAZIONI NUTRIZIONALI per 100g (porzione)* %AR(100g)** 6.5% 130 kcal 6.5% Saudi grassi satu 544 kJ 8% 5.8 g 21%",
+      "marca": "Squp",
+      "motivo": "voci tutte in fascia, saturi al limite ma dentro",
+      "negozio": "IperCoop",
+      "nome": "Squp Cacao",
+      "nova": 4,
+      "nutriscore": "UNKNOWN",
+      "porzioneDichiarata": 0,
+      "tipo": "LEGUMI",
+      "valori": {
+        "kcal": 130.0,
+        "grassi": 5.8,
+        "saturi": 4.2,
+        "carboidrati": 15.0,
+        "zuccheri": 1.3,
+        "fibre": 15.0,
+        "proteine": 1.9,
+        "sale": 0.007
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
