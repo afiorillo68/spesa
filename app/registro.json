@@ -563,7 +563,7 @@
     },
     {
       "barcode": "3533631050009",
-      "cartella": "",
+      "cartella": "Bevanda",
       "categoria": "solido",
       "certezza": "CERTO",
       "colore": "VERDE",
@@ -571,7 +571,7 @@
       "fonteTipo": "Open Food Facts",
       "fonteValori": "openfoodfacts",
       "fotoIngredienti": "",
-      "fotoProdotto": "",
+      "fotoProdotto": "prodotto-1786696051702.jpg",
       "fotoTabella": "",
       "ingredienti": "",
       "marca": "Candia",
