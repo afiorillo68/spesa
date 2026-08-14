@@ -692,6 +692,39 @@
         "grassi": 9.9
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8009355003317",
+      "cartella": "",
+      "categoria": "secco",
+      "certezza": "CERTO",
+      "colore": "GIALLO",
+      "data": "2026-08-14",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "100% farina di mais giallo biologico",
+      "marca": "Lo Conte",
+      "motivo": "energia a 355, al limite",
+      "negozio": "Oasi Tigre",
+      "nome": "Polenta farina di mais istantanea (Lo Conte)",
+      "nova": 1,
+      "nutriscore": "A",
+      "porzioneDichiarata": 0,
+      "tipo": "PASTA",
+      "valori": {
+        "kcal": 355.0,
+        "grassi": 0.9,
+        "saturi": 0.2,
+        "carboidrati": 77.0,
+        "zuccheri": 1.3,
+        "fibre": 3.1,
+        "proteine": 8.5,
+        "sale": 0.003
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
