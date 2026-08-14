@@ -3,6 +3,7 @@
     "Bevanda",
     "Carne",
     "Condimenti",
+    "Dolci",
     "Farine",
     "Formaggi",
     "Gelato",
@@ -762,7 +763,7 @@
     },
     {
       "barcode": "8004735104981",
-      "cartella": "",
+      "cartella": "Dolci",
       "categoria": "solido",
       "certezza": "SCELTO",
       "colore": "ROSSO",
