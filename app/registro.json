@@ -5,6 +5,7 @@
     "Condimenti",
     "Farine",
     "Formaggi",
+    "Gelato",
     "Pane",
     "Pesce",
     "Yogurt"
@@ -628,7 +629,7 @@
     },
     {
       "barcode": "8057506070060",
-      "cartella": "",
+      "cartella": "Gelato",
       "categoria": "secco",
       "certezza": "CERTO",
       "colore": "VERDE",
