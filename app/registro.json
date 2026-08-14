@@ -659,6 +659,39 @@
         "sale": 0.007
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8057506070077",
+      "cartella": "Gelato",
+      "categoria": "solido",
+      "certezza": "SCELTO",
+      "colore": "ROSSO",
+      "data": "2026-08-14",
+      "fonteTipo": "scelto da te",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "ingredienti-1786706285711.jpg",
+      "fotoProdotto": "prodotto-1786706285607.jpg",
+      "fotoTabella": "",
+      "ingredienti": "(onsare a -18°C Non ricongelare dopo lo scongelamento. Rronsumarsi i preferibilmente entro il: vedi coperchio. OSronsiglia di consumare il prodotto qualche minuto dopo lo seonlam l gtale alla nocciola con edulcoranti. eniert acqua, frutto-oligosaccaridi, edulcoranti (maltitolo, eritritdlel, a farina diastasata di riso, olio di cocco, inulina, emulsionanf ie-digliceridi degli i acidi grassi, esteri dell\u0027 1,2 propandiolo onsanti (farina di semi di carrube, gomma di guar, metilcellulosal, anm a bi gntenere altra frutta a guscio, soia, latte (il prodotto è realizato can im gtal, ma norn è possibile escludere la presenza accidentale di piccole ati Sa gltine. Naturalmente senza lattosio. DEHARAZIONI NUTRIZIONALI per 100g (porzione)* 162 kcal 677 kJ 9,9 g 3,79 159 1,6 9 B9 1,5g %AR1O09 0,0079 a conteione contiene circa 3 porzioni. d riferimento di un adulto medio. (8400kI/2000 kcal e alla data di scadenza. 185% 6",
+      "marca": "Squp",
+      "motivo": "saturi a 3,7, oltre la soglia",
+      "negozio": "IperCoop",
+      "nome": "Squp Nocciola",
+      "nova": 0,
+      "nutriscore": "A",
+      "porzioneDichiarata": 0,
+      "tipo": "DOLCE",
+      "valori": {
+        "carboidrati": 15.0,
+        "proteine": 1.5,
+        "kcal": 677.0,
+        "saturi": 3.7,
+        "sale": 0.07,
+        "zuccheri": 1.6,
+        "fibre": 13.0,
+        "grassi": 9.9
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
