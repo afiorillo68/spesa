@@ -533,38 +533,6 @@
       "zuccheriAggiunti": false
     },
     {
-      "barcode": "3533631050009",
-      "cartella": "Bevanda",
-      "categoria": "solido",
-      "certezza": "CERTO",
-      "colore": "VERDE",
-      "data": "2026-08-14",
-      "fonteTipo": "Open Food Facts",
-      "fonteValori": "openfoodfacts",
-      "fotoIngredienti": "",
-      "fotoProdotto": "prodotto-1786696051702.jpg",
-      "fotoTabella": "",
-      "ingredienti": "",
-      "marca": "Candia",
-      "motivo": "voci tutte in fascia, proteine al limite ma dentro",
-      "negozio": "TuoDì",
-      "nome": "Latte (Candia)",
-      "nova": 0,
-      "nutriscore": "UNKNOWN",
-      "porzioneDichiarata": 0,
-      "tipo": "IGNOTO",
-      "valori": {
-        "kcal": 41.0,
-        "grassi": 1.0,
-        "saturi": 0.6,
-        "carboidrati": 4.8,
-        "zuccheri": 4.8,
-        "proteine": 3.3,
-        "sale": 0.1
-      },
-      "zuccheriAggiunti": false
-    },
-    {
       "barcode": "4335619161498",
       "cartella": "Yogurt",
       "categoria": "latticino",
@@ -791,6 +759,38 @@
         "zuccheri": 0.5,
         "proteine": 0.0,
         "sale": 0.01
+      },
+      "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "3533631050009",
+      "cartella": "Bevanda",
+      "categoria": "latticino",
+      "certezza": "SCELTO",
+      "colore": "VERDE",
+      "data": "2026-08-14",
+      "fonteTipo": "scelto da te",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "prodotto-1786696051702.jpg",
+      "fotoTabella": "",
+      "ingredienti": "",
+      "marca": "Candia",
+      "motivo": "voci tutte in fascia, proteine al limite ma dentro",
+      "negozio": "TuoDì",
+      "nome": "Latte (Candia)",
+      "nova": 0,
+      "nutriscore": "UNKNOWN",
+      "porzioneDichiarata": 0,
+      "tipo": "LATTE",
+      "valori": {
+        "kcal": 41.0,
+        "grassi": 1.0,
+        "saturi": 0.6,
+        "carboidrati": 4.8,
+        "zuccheri": 4.8,
+        "proteine": 3.3,
+        "sale": 0.1
       },
       "zuccheriAggiunti": false
     }
