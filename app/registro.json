@@ -759,6 +759,39 @@
         "sale": 1.0
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8004735104981",
+      "cartella": "",
+      "categoria": "condimento",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-14",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "Cacao magro in polvere 26%, edulcolorante: maltitolo, nocciole 25%, latte scremato in polvere, olio di girasole, fibra vegetale: inulina, burro di cacao, burro anidro (latte)) emulsionante: lecitina di soia, aromi. Può contenere mandorle, pistacchi e anacardi. Un consumo eccessivo può avere effetti lassativi.",
+      "marca": "Zaini Emilia",
+      "motivo": "tutte le voci dentro le soglie",
+      "negozio": "Oasi Tigre",
+      "nome": "Emilia senza zuccheri aggiunti (Zaini Emilia)",
+      "nova": 4,
+      "nutriscore": "B",
+      "porzioneDichiarata": 0,
+      "tipo": "GRASSI",
+      "valori": {
+        "kcal": 423.0,
+        "grassi": 25.0,
+        "saturi": 6.0,
+        "carboidrati": 41.0,
+        "zuccheri": 6.0,
+        "fibre": 14.0,
+        "proteine": 12.0,
+        "sale": 0.2
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
