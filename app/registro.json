@@ -857,6 +857,38 @@
         "grassi": 0.1
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8034066307416",
+      "cartella": "",
+      "categoria": "latticino",
+      "certezza": "CERTO",
+      "colore": "GIALLO",
+      "data": "2026-08-15",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "Latte intero 92,9%, crema di latte 4,6%, zucchero 2,5%, fermenti lattici vivi (Lactococcus lactis, Lactobacillus cremoris, Lactobacillus acidophilus, Lactobacillus helveticus, Lactobacillus lactis, Streptococcus thermophilus, Bifidobacterium lactis), lieviti. Senza glutine. Da consumare entro: vedi sopra.",
+      "marca": "alplí",
+      "motivo": "saturi a 3, al limite",
+      "negozio": "TuoDì",
+      "nome": "Kefir cremoso bianco (alplí)",
+      "nova": 3,
+      "nutriscore": "D",
+      "porzioneDichiarata": 0,
+      "tipo": "YOGURT",
+      "valori": {
+        "kcal": 89.0,
+        "grassi": 5.0,
+        "saturi": 3.0,
+        "carboidrati": 6.4000000953674,
+        "zuccheri": 6.4000000953674,
+        "proteine": 4.5,
+        "sale": 0.1
+      },
+      "zuccheriAggiunti": true
     }
   ]
 }
