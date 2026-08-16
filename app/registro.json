@@ -1029,13 +1029,13 @@
       "colore": "GIALLO",
       "data": "2026-08-16",
       "fonteTipo": "scelto da te",
-      "fonteValori": "openfoodfacts",
+      "fonteValori": "corretti a mano",
       "fotoIngredienti": "",
       "fotoProdotto": "",
       "fotoTabella": "",
       "ingredienti": "Albicocche, acqua, edulcoranti : maltitoli, acesulfame k, sucralosio, steviolici da Stevia ; gelificante: pectine ; correttore di acidità : acido citrico;succo concentrato di carota, agente di resistenza : citrati di calcio; conservante: sorbato di potassio ; antiossidante : acido ascorbico.",
       "marca": "Puertosol",
-      "motivo": "sale a 0,5, al limite",
+      "motivo": "fibre a 1,3, al limite",
       "negozio": "Eurospin",
       "nome": "Marmellata albicocca senza zuccheri aggiunti (Puertosol)",
       "nova": 4,
@@ -1043,14 +1043,14 @@
       "porzioneDichiarata": 0,
       "tipo": "FRUTTA",
       "valori": {
-        "kcal": 60.0,
-        "grassi": 0.0,
-        "saturi": 0.0,
         "carboidrati": 17.0,
+        "proteine": 0.5,
+        "kcal": 58.0,
+        "saturi": 0.0,
+        "sale": 0.0,
         "zuccheri": 4.7,
         "fibre": 1.3,
-        "proteine": 0.5,
-        "sale": 0.5
+        "grassi": 0.0
       },
       "zuccheriAggiunti": true
     }
