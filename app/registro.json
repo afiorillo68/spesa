@@ -1024,11 +1024,11 @@
     {
       "barcode": "8017596121752",
       "cartella": "",
-      "categoria": "liquido",
-      "certezza": "CERTO",
+      "categoria": "frutta",
+      "certezza": "SCELTO",
       "colore": "GIALLO",
       "data": "2026-08-16",
-      "fonteTipo": "Open Food Facts",
+      "fonteTipo": "scelto da te",
       "fonteValori": "openfoodfacts",
       "fotoIngredienti": "",
       "fotoProdotto": "",
@@ -1041,7 +1041,7 @@
       "nova": 4,
       "nutriscore": "B",
       "porzioneDichiarata": 0,
-      "tipo": "BEVANDA",
+      "tipo": "FRUTTA",
       "valori": {
         "kcal": 60.0,
         "grassi": 0.0,
