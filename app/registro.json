@@ -1087,6 +1087,39 @@
         "grassi": 2.3
       },
       "zuccheriAggiunti": true
+    },
+    {
+      "barcode": "24101677",
+      "cartella": "",
+      "categoria": "latticino",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-16",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "",
+      "marca": "Dolciando",
+      "motivo": "voci tutte in fascia, saturi al limite ma dentro",
+      "negozio": "Lidl",
+      "nome": "Protein + Panna E Cacao (Dolciando)",
+      "nova": 0,
+      "nutriscore": "A",
+      "porzioneDichiarata": 200,
+      "tipo": "LATTE",
+      "valori": {
+        "kcal": 82.0,
+        "grassi": 2.4,
+        "saturi": 1.6,
+        "carboidrati": 5.0,
+        "zuccheri": 4.0,
+        "fibre": 0.0,
+        "proteine": 10.0,
+        "sale": 0.1175
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
