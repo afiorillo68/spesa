@@ -1054,6 +1054,39 @@
         "grassi": 0.0
       },
       "zuccheriAggiunti": true
+    },
+    {
+      "barcode": "8017596121769",
+      "cartella": "",
+      "categoria": "frutta",
+      "certezza": "SCELTO",
+      "colore": "GIALLO",
+      "data": "2026-08-16",
+      "fonteTipo": "scelto da te",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "fragole, acqua, edulcoranti: maltitolo, acesulfame K, sucralosio, glicosidi steviolici da Stevia; gelificante: pectine; correttore di acidità: acido citrico; succo concentrato di carota nera, agente di resistenza: citrati di calcio; conservante: sorbato di potassio",
+      "marca": "Eurospin, Puertosol",
+      "motivo": "fibre a 1,2, al limite",
+      "negozio": "Eurospin",
+      "nome": "Confettura di Fragole (Eurospin, Puertosol)",
+      "nova": 4,
+      "nutriscore": "A",
+      "porzioneDichiarata": 0,
+      "tipo": "FRUTTA",
+      "valori": {
+        "kcal": 52.0,
+        "grassi": 0.0,
+        "saturi": 0.0,
+        "carboidrati": 17.0,
+        "zuccheri": 2.7,
+        "fibre": 1.2,
+        "proteine": 0.35,
+        "sale": 0.0
+      },
+      "zuccheriAggiunti": true
     }
   ]
 }
