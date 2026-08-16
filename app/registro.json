@@ -242,38 +242,6 @@
       "zuccheriAggiunti": false
     },
     {
-      "barcode": "8017596017505",
-      "cartella": "Carne",
-      "categoria": "solido",
-      "certezza": "CERTO",
-      "colore": "ROSSO",
-      "data": "2026-08-13",
-      "fonteTipo": "Open Food Facts",
-      "fonteValori": "openfoodfacts",
-      "fotoIngredienti": "",
-      "fotoProdotto": "prodotto-1786647228044.jpg",
-      "fotoTabella": "",
-      "ingredienti": "Trippa bovina cotta (40% equivalente a 250g di trippa M cruda), acqua, carote, cipolla, farina di FRUMENTO, SEDANO, per 45 semiconcentrato di pomodoro, olio di semi di girasole, doppio mic concentrato di pomodoro, sale, zucchero, cipolla in polvere, estratto di 30 se carne, peperoncino macinato, pepe nero. Può contenere tracce di sedem SENAPE e SOIA. Modalità di conservazione: Conservare a pre temperatura ambiente,",
-      "marca": "Eurospin",
-      "motivo": "sale a 1,1, oltre la soglia",
-      "negozio": "Eurospin",
-      "nome": "Trippa al sugo",
-      "nova": 0,
-      "nutriscore": "",
-      "porzioneDichiarata": 0,
-      "tipo": "PIATTO_PRONTO",
-      "valori": {
-        "carboidrati": 3.5,
-        "proteine": 10.0,
-        "kcal": 77.0,
-        "saturi": 0.8,
-        "sale": 1.1,
-        "zuccheri": 1.6,
-        "grassi": 2.3
-      },
-      "zuccheriAggiunti": true
-    },
-    {
       "barcode": "8032998906226",
       "cartella": "Pane",
       "categoria": "solido",
@@ -1085,6 +1053,38 @@
         "sale": 2.0,
         "zuccheri": 0.3,
         "grassi": 1.0
+      },
+      "zuccheriAggiunti": true
+    },
+    {
+      "barcode": "8017596017505",
+      "cartella": "Carne",
+      "categoria": "solido",
+      "certezza": "SCELTO",
+      "colore": "ROSSO",
+      "data": "2026-08-13",
+      "fonteTipo": "scelto da te",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "prodotto-1786647228044.jpg",
+      "fotoTabella": "",
+      "ingredienti": "Trippa bovina cotta (40% equivalente a 250g di trippa M cruda), acqua, carote, cipolla, farina di FRUMENTO, SEDANO, per 45 semiconcentrato di pomodoro, olio di semi di girasole, doppio mic concentrato di pomodoro, sale, zucchero, cipolla in polvere, estratto di 30 se carne, peperoncino macinato, pepe nero. Può contenere tracce di sedem SENAPE e SOIA. Modalità di conservazione: Conservare a pre temperatura ambiente,",
+      "marca": "Eurospin",
+      "motivo": "sale a 1,1, oltre la soglia",
+      "negozio": "Eurospin",
+      "nome": "Trippa al sugo",
+      "nova": 0,
+      "nutriscore": "",
+      "porzioneDichiarata": 0,
+      "tipo": "CARNE",
+      "valori": {
+        "carboidrati": 3.5,
+        "proteine": 10.0,
+        "kcal": 77.0,
+        "saturi": 0.8,
+        "sale": 1.1,
+        "zuccheri": 1.6,
+        "grassi": 2.3
       },
       "zuccheriAggiunti": true
     }
