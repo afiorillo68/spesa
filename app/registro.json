@@ -274,38 +274,6 @@
       "zuccheriAggiunti": true
     },
     {
-      "barcode": "8000250991532",
-      "cartella": "Carne",
-      "categoria": "grasso_buono",
-      "certezza": "CERTO",
-      "colore": "ROSSO",
-      "data": "2026-08-13",
-      "fonteTipo": "Open Food Facts",
-      "fonteValori": "openfoodfacts",
-      "fotoIngredienti": "",
-      "fotoProdotto": "prodotto-1786647312751.jpg",
-      "fotoTabella": "",
-      "ingredienti": "Brodo (acqua Hühnerbrust sale, aromi con sedano).petto di 65 g roher pollo cotto 38% (equivale a 65g nd Salz), di petto di pollo crudo e sale Agar, Honig, gelificante: agar-agar, miele, amsbrother addensante: farina di semi di sverstärker: carrube, esaltatore di sapidità: glutammato monosodico Senza glutine nat 14 IT 23 T2 C 80",
-      "marca": "Montana",
-      "motivo": "sale a 2, oltre la soglia",
-      "negozio": "Lidl",
-      "nome": "Leggera di Pollo (Montana)",
-      "nova": 0,
-      "nutriscore": "",
-      "porzioneDichiarata": 0,
-      "tipo": "PESCE",
-      "valori": {
-        "carboidrati": 1.7,
-        "proteine": 11.0,
-        "kcal": 60.0,
-        "saturi": 0.3,
-        "sale": 2.0,
-        "zuccheri": 0.3,
-        "grassi": 1.0
-      },
-      "zuccheriAggiunti": true
-    },
-    {
       "barcode": "8032998906226",
       "cartella": "Pane",
       "categoria": "solido",
@@ -1085,6 +1053,38 @@
         "fibre": 1.2,
         "proteine": 0.35,
         "sale": 0.0
+      },
+      "zuccheriAggiunti": true
+    },
+    {
+      "barcode": "8000250991532",
+      "cartella": "Carne",
+      "categoria": "solido",
+      "certezza": "SCELTO",
+      "colore": "ROSSO",
+      "data": "2026-08-13",
+      "fonteTipo": "scelto da te",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "prodotto-1786647312751.jpg",
+      "fotoTabella": "",
+      "ingredienti": "Brodo (acqua Hühnerbrust sale, aromi con sedano).petto di 65 g roher pollo cotto 38% (equivale a 65g nd Salz), di petto di pollo crudo e sale Agar, Honig, gelificante: agar-agar, miele, amsbrother addensante: farina di semi di sverstärker: carrube, esaltatore di sapidità: glutammato monosodico Senza glutine nat 14 IT 23 T2 C 80",
+      "marca": "Montana",
+      "motivo": "sale a 2, oltre la soglia",
+      "negozio": "Lidl",
+      "nome": "Leggera di Pollo (Montana)",
+      "nova": 0,
+      "nutriscore": "",
+      "porzioneDichiarata": 0,
+      "tipo": "CARNE",
+      "valori": {
+        "carboidrati": 1.7,
+        "proteine": 11.0,
+        "kcal": 60.0,
+        "saturi": 0.3,
+        "sale": 2.0,
+        "zuccheri": 0.3,
+        "grassi": 1.0
       },
       "zuccheriAggiunti": true
     }
