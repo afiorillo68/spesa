@@ -7,6 +7,7 @@
     "Farine",
     "Formaggi",
     "Gelato",
+    "Marmellate",
     "Pane",
     "Pesce",
     "Primi",
@@ -1023,7 +1024,7 @@
     },
     {
       "barcode": "8017596121752",
-      "cartella": "",
+      "cartella": "Marmellate",
       "categoria": "frutta",
       "certezza": "SCELTO",
       "colore": "GIALLO",
