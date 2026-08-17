@@ -1190,11 +1190,11 @@
     {
       "barcode": "24101028",
       "cartella": "",
-      "categoria": "latticino",
-      "certezza": "CERTO",
+      "categoria": "solido",
+      "certezza": "SCELTO",
       "colore": "VERDE",
       "data": "2026-08-17",
-      "fonteTipo": "Open Food Facts",
+      "fonteTipo": "scelto da te",
       "fonteValori": "openfoodfacts",
       "fotoIngredienti": "",
       "fotoProdotto": "",
@@ -1207,7 +1207,7 @@
       "nova": 4,
       "nutriscore": "A",
       "porzioneDichiarata": 0,
-      "tipo": "LATTE",
+      "tipo": "DOLCE",
       "valori": {
         "kcal": 75.0,
         "grassi": 1.0,
