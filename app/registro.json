@@ -1123,7 +1123,7 @@
     },
     {
       "barcode": "20692278",
-      "cartella": "",
+      "cartella": "Yogurt",
       "categoria": "latticino",
       "certezza": "CERTO",
       "colore": "VERDE",
@@ -1131,7 +1131,7 @@
       "fonteTipo": "Open Food Facts",
       "fonteValori": "openfoodfacts",
       "fotoIngredienti": "",
-      "fotoProdotto": "",
+      "fotoProdotto": "prodotto-1786951295875.jpg",
       "fotoTabella": "",
       "ingredienti": "Entrahmte _Milch_, Wasser, modifizierte Stärke, Zitronensaft aus Zitronensaftkonzentrat, Vanilleextrakt, Verdickungsmittel: Pektine, Xanthan, Säureregulatoren: Calciumcitrate, Citronensäure, natürliches _Sahne-Aroma_, Vanilleschoten, Startetkulturen, mikrobielles Lab, Süßungsmittel: Aspartam, Acesulfam K,",
       "marca": "Milbona",
