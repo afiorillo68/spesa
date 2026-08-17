@@ -1120,6 +1120,39 @@
         "sale": 0.1175
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "20692278",
+      "cartella": "",
+      "categoria": "latticino",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-17",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "Entrahmte _Milch_, Wasser, modifizierte Stärke, Zitronensaft aus Zitronensaftkonzentrat, Vanilleextrakt, Verdickungsmittel: Pektine, Xanthan, Säureregulatoren: Calciumcitrate, Citronensäure, natürliches _Sahne-Aroma_, Vanilleschoten, Startetkulturen, mikrobielles Lab, Süßungsmittel: Aspartam, Acesulfam K,",
+      "marca": "Milbona",
+      "motivo": "tutte le voci dentro le soglie",
+      "negozio": "Lidl",
+      "nome": "Skyr Vanille (Milbona)",
+      "nova": 4,
+      "nutriscore": "A",
+      "porzioneDichiarata": 350,
+      "tipo": "YOGURT",
+      "valori": {
+        "kcal": 54.0,
+        "grassi": 0.2,
+        "saturi": 0.1,
+        "carboidrati": 4.1,
+        "zuccheri": 3.3,
+        "fibre": 0.1,
+        "proteine": 8.8,
+        "sale": 0.0975
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
