@@ -1254,7 +1254,7 @@
     },
     {
       "barcode": "4335619348585",
-      "cartella": "",
+      "cartella": "Dolci",
       "categoria": "solido",
       "certezza": "CERTO",
       "colore": "VERDE",
@@ -1262,7 +1262,7 @@
       "fonteTipo": "Open Food Facts",
       "fonteValori": "openfoodfacts",
       "fotoIngredienti": "",
-      "fotoProdotto": "",
+      "fotoProdotto": "prodotto-1787055836172.jpg",
       "fotoTabella": "",
       "ingredienti": "Ingredienti: 55% proteine del latte, latte scremato, panna, 2% cacao magro in polvere***, gelatina alimentare (bovino), amido modificato 0%AR Bourbon, aroma naturale, lattasi, edulcoranti: acesulfame addensanti: carragenina, gomma di guar; aroma naturale di vaniglia 32 5% Alliance. ra.org. AD ALTO CONTENUTO DI PROTEINE **Lattosio al 7% sucralosio; colorante: caroteni; azoto. ***Certificato Rainforest 1g 4% conseguenza della scissione del lattosio. SENZA GLUTINE. 11% \u0026lt;0,1g/100 g. Il prodotto contiene glucosio e galattosio in Conservare in frigo a max. +8 °C. Da consumarsi preferibilmente entro il (in confezione integra): vedere capsula. 75 Prodotto per Lidl Italia S.r.l., Via Augusto Ruffo 36, IT-37040 Arcole (VR) 4 200 ge SMALTIRE CORRETTAMENTE Capsula ALU Alluminio Vasetto ed etichetta 4 PP Plastica Raccolta differential Verifica le dispo SKYR",
       "marca": "Pilos",
@@ -1283,6 +1283,39 @@
         "sale": 0.19625
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "4056489273264",
+      "cartella": "",
+      "categoria": "latticino",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-18",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "Latte Scremato, proteine del latte, panna, amido modificato, addensanti: carragenina, carbossimetilcellulosa di sodio; aroma naturale, 0,2% zucchero caramellato, sale da cucina, edulcoranti: acesulfame K, sucralosio; colorante: caroteni; lattasi. \r\n**alto contenuto di proteica, 20 g contenuto in un vasetto da 200 g. \r\n¹ Contenuto di lattosio \u0026lt;0,1g/100 g.",
+      "marca": "Milbona",
+      "motivo": "voci tutte in fascia, sale al limite ma dentro",
+      "negozio": "Lidl",
+      "nome": "High Protein Caramella Pudding (Milbona)",
+      "nova": 4,
+      "nutriscore": "A",
+      "porzioneDichiarata": 0,
+      "tipo": "LATTE",
+      "valori": {
+        "kcal": 76.0,
+        "grassi": 1.5,
+        "saturi": 1.0,
+        "carboidrati": 5.5,
+        "zuccheri": 4.5,
+        "fibre": 0.25,
+        "proteine": 10.0,
+        "sale": 0.4
+      },
+      "zuccheriAggiunti": true
     }
   ]
 }
