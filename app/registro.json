@@ -1319,7 +1319,7 @@
     },
     {
       "barcode": "4045797310600",
-      "cartella": "",
+      "cartella": "Dolci",
       "categoria": "solido",
       "certezza": "SCELTO",
       "colore": "VERDE",
@@ -1327,7 +1327,7 @@
       "fonteTipo": "scelto da te",
       "fonteValori": "openfoodfacts",
       "fotoIngredienti": "",
-      "fotoProdotto": "",
+      "fotoProdotto": "prodotto-1787147252793.jpg",
       "fotoTabella": "",
       "ingredienti": "Latte scremato, proteine del latte 6,0%, cacao magro in polvere 4,0%, panna, gelatina (bovino), amido modificato, aroma naturale, addensanti (gomma di guar, carragenina), enzima lattasi, edulcoranti (acesulfame K, sucralosio).",
       "marca": "Milchfrisch",
