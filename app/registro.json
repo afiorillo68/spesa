@@ -1349,6 +1349,38 @@
         "sale": 0.1
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8034066371752",
+      "cartella": "",
+      "categoria": "latticino",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-19",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "Latte parzialmente scremato proteine del latte 7,9%, cacao in polvere 1,8%, cacao magro in polvere 1,2%, amido modificato di mais, addensanti: carragenina, carbossimetilcellulosa sodica; stabilizzante: fosfato di sodio; aromi, aromi naturali, edulcorante: sucralosio.",
+      "marca": "alpura",
+      "motivo": "voci tutte in fascia, sale al limite ma dentro",
+      "negozio": "TuoDì",
+      "nome": "Dessert proteico pro (alpura)",
+      "nova": 4,
+      "nutriscore": "A",
+      "porzioneDichiarata": 200,
+      "tipo": "LATTE",
+      "valori": {
+        "kcal": 84.0,
+        "grassi": 1.5,
+        "saturi": 1.0,
+        "carboidrati": 7.3,
+        "zuccheri": 4.8,
+        "proteine": 10.0,
+        "sale": 0.37
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
