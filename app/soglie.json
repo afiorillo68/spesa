@@ -1,6 +1,6 @@
 {
-  "versione": "2026-08-14",
-  "nota": "Derivato da 2026-08-13-tabella-nutrizionale-gdo.md, che resta la fonte. direzione max = valori bassi buoni; direzione min = valori alti buoni. verde = soglia entro cui e' verde; rosso = soglia oltre cui e' rosso.",
+  "versione": "2026-08-19",
+  "nota": "Derivato da 2026-08-13-tabella-nutrizionale-gdo.md, che resta la fonte. Ricalibrato sul referto del 17/08/2026: LDL sceso da 197 a 97 in statina, ma il bersaglio resta <55, quindi le fasce NON sono state allentate. HbA1c non rimisurata, ferma al 7,10% del 24/04. direzione max = valori bassi buoni; direzione min = valori alti buoni. verde = soglia entro cui e' verde; rosso = soglia oltre cui e' rosso.",
   "priorita": [
     "saturi",
     "sale",
