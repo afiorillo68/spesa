@@ -731,38 +731,6 @@
       "zuccheriAggiunti": false
     },
     {
-      "barcode": "",
-      "cartella": "Yogurt",
-      "categoria": "latticino",
-      "certezza": "DEDOTTO",
-      "colore": "VERDE",
-      "data": "2026-08-15",
-      "fonteTipo": "nome",
-      "fonteValori": "ocr",
-      "fotoIngredienti": "",
-      "fotoProdotto": "prodotto-1786809642134.jpg",
-      "fotoTabella": "tabella-1786809642244.jpg",
-      "ingredienti": "",
-      "marca": "Vitalibre",
-      "motivo": "tutte le voci dentro le soglie",
-      "negozio": "TuoDì",
-      "nome": "Yogurt Magro Senza Lattosio (Vitalibre)",
-      "nova": 0,
-      "nutriscore": "",
-      "porzioneDichiarata": 0,
-      "tipo": "YOGURT",
-      "valori": {
-        "carboidrati": 4.3,
-        "proteine": 4.3,
-        "kcal": 35.0,
-        "saturi": 0.1,
-        "sale": 0.13,
-        "zuccheri": 4.3,
-        "grassi": 0.1
-      },
-      "zuccheriAggiunti": false
-    },
-    {
       "barcode": "8034066307416",
       "cartella": "Yogurt",
       "categoria": "latticino",
@@ -1379,6 +1347,38 @@
         "zuccheri": 4.8,
         "proteine": 10.0,
         "sale": 0.37
+      },
+      "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "",
+      "cartella": "",
+      "categoria": "latticino",
+      "certezza": "SCELTO",
+      "colore": "VERDE",
+      "data": "2026-08-19",
+      "fonteTipo": "scelto da te",
+      "fonteValori": "ocr",
+      "fotoIngredienti": "ingredienti-1787147421026.jpg",
+      "fotoProdotto": "prodotto-1787147420857.jpg",
+      "fotoTabella": "tabella-1787147420943.jpg",
+      "ingredienti": "lhgurt magro bianco senza lattosio, Ingredient: LATE emato pastorizzato delattosato, fermenti Sestococcus thermophilus, Lactobacillus bulrato (ptsio infeiore a 0,1g di lattosio in 100g di prodota 1 odsto contiene glucosio e galattosio in conseguetza tl scissione del lattosio. igne del latte: talia. aonsmare eentro: vedi la data stampata sul copeha asevare in frigorfero t tra +1°Ce +4°C. Pussto e confezionato per Maxi Di Srl, Vae a laso 0,31050 Belfiore (VR) nello stabilinento d l áng Vecchủo 15,38030 Roverè dela Luna (TN 10ge",
+      "marca": "Vitalibre",
+      "motivo": "tutte le voci dentro le soglie",
+      "negozio": "",
+      "nome": "Yogurt Magro Senza Lattosio (Vitalibre)",
+      "nova": 0,
+      "nutriscore": "",
+      "porzioneDichiarata": 0,
+      "tipo": "YOGURT",
+      "valori": {
+        "carboidrati": 4.3,
+        "proteine": 4.3,
+        "kcal": 35.0,
+        "saturi": 0.1,
+        "sale": 0.13,
+        "zuccheri": 4.3,
+        "grassi": 0.1
       },
       "zuccheriAggiunti": false
     }
