@@ -1353,11 +1353,11 @@
     {
       "barcode": "8034066371752",
       "cartella": "",
-      "categoria": "latticino",
-      "certezza": "CERTO",
+      "categoria": "solido",
+      "certezza": "SCELTO",
       "colore": "VERDE",
       "data": "2026-08-19",
-      "fonteTipo": "Open Food Facts",
+      "fonteTipo": "scelto da te",
       "fonteValori": "openfoodfacts",
       "fotoIngredienti": "",
       "fotoProdotto": "",
@@ -1370,7 +1370,7 @@
       "nova": 4,
       "nutriscore": "A",
       "porzioneDichiarata": 200,
-      "tipo": "LATTE",
+      "tipo": "DOLCE",
       "valori": {
         "kcal": 84.0,
         "grassi": 1.5,
