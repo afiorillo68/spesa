@@ -1413,6 +1413,39 @@
         "sale": 0.0021
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "5600961172126",
+      "cartella": "",
+      "categoria": "solido",
+      "certezza": "SCELTO",
+      "colore": "ROSSO",
+      "data": "2026-08-19",
+      "fonteTipo": "scelto da te",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "",
+      "marca": "Prozis",
+      "motivo": "saturi a 5,2, oltre la soglia",
+      "negozio": "Oasi Tigre",
+      "nome": "Protein Choco Crisp Peanut Butter (Prozis)",
+      "nova": 0,
+      "nutriscore": "A",
+      "porzioneDichiarata": 0,
+      "tipo": "DOLCE",
+      "valori": {
+        "kcal": 601.0,
+        "grassi": 46.0,
+        "saturi": 5.2,
+        "carboidrati": 14.0,
+        "zuccheri": 4.2,
+        "fibre": 5.7,
+        "proteine": 30.0,
+        "sale": 0.28
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
