@@ -1316,6 +1316,39 @@
         "sale": 0.4
       },
       "zuccheriAggiunti": true
+    },
+    {
+      "barcode": "4045797310600",
+      "cartella": "",
+      "categoria": "solido",
+      "certezza": "SCELTO",
+      "colore": "VERDE",
+      "data": "2026-08-19",
+      "fonteTipo": "scelto da te",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "Latte scremato, proteine del latte 6,0%, cacao magro in polvere 4,0%, panna, gelatina (bovino), amido modificato, aroma naturale, addensanti (gomma di guar, carragenina), enzima lattasi, edulcoranti (acesulfame K, sucralosio).",
+      "marca": "Milchfrisch",
+      "motivo": "tutte le voci dentro le soglie",
+      "negozio": "TuoDì",
+      "nome": "Mousse pro cioccolato High pro (Milchfrisch)",
+      "nova": 4,
+      "nutriscore": "A",
+      "porzioneDichiarata": 0,
+      "tipo": "DOLCE",
+      "valori": {
+        "kcal": 76.0,
+        "grassi": 1.6,
+        "saturi": 1.1,
+        "carboidrati": 5.0,
+        "zuccheri": 4.0,
+        "fibre": 1.0,
+        "proteine": 10.0,
+        "sale": 0.1
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
