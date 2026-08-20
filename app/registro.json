@@ -1447,6 +1447,39 @@
         "sale": 0.001125
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "",
+      "cartella": "",
+      "categoria": "solido",
+      "certezza": "SCELTO",
+      "colore": "ROSSO",
+      "data": "2026-08-20",
+      "fonteTipo": "scelto da te",
+      "fonteValori": "ocr",
+      "fotoIngredienti": "ingredienti-1787224521219.jpg",
+      "fotoProdotto": "prodotto-1787224521026.jpg",
+      "fotoTabella": "tabella-1787224521129.jpg",
+      "ingredienti": "Conservare in un luogo fresco e asciutto. Da consumarsi preferibilmente entro il: / Conservar em local fresco e seco. Consumir de preferência antes de/Lote: IT Ramen Noodles al gusto miele. Ingredienti: Ramen Noodles 150g: acqua 54%, farina di frumento, glutine di frumento, sale, acidificante: acido lattico; addensante: gomma di guar. Salsa piccante gusto miele 100 g: acqua 22,5%, zucchero, sciroppo di mais, aglio 1,5%, peperoncino 9,6%, passata di pomodoro 5,8%, proteine di soia 4,5%, salsa di soia (acqua, semi di soia, frumento, sale), aceto di alcol, citronella, amido modificato, corettore di acidità: acido acetico; sale, coriandolo, estratto di lievito, correttore di acidità: acido citrico; aroma di miele 0.10%. Può contenere arachidi e sesamo. PT Ramen (sopa ao estilo japonës) com noodles, com sabor a mel. Ingredientes: Massa 150 g: áqua 54%, farinha de trigo, glúten tigo, sal, acidificante: ácido lático; espessante: goma de gua. de 4,5%, molho de soja láqua. soja, trigo, sal), vinagre (agua, F G Ca Fibr Sale/ Hot Honey 100 0g: água 22,5%, açúcar, xarope de milho, alho 11,5%, malagueta 9,6%, pasta de tomate 5,8%, proteína de soja de pro \"di pro instruçõ",
+      "marca": "Food Festival",
+      "motivo": "zuccheri a 11,9, oltre la soglia",
+      "negozio": "Lidl",
+      "nome": "Ramen Noodles (Food Festival)",
+      "nova": 0,
+      "nutriscore": "",
+      "porzioneDichiarata": 0,
+      "tipo": "PIATTO_PRONTO",
+      "valori": {
+        "carboidrati": 37.2,
+        "proteine": 5.5,
+        "kcal": 179.0,
+        "saturi": 0.3,
+        "sale": 0.78,
+        "zuccheri": 11.9,
+        "fibre": 2.7,
+        "grassi": 0.3
+      },
+      "zuccheriAggiunti": true
     }
   ]
 }
