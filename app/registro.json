@@ -1480,6 +1480,39 @@
         "grassi": 0.3
       },
       "zuccheriAggiunti": true
+    },
+    {
+      "barcode": "4335619146440",
+      "cartella": "Primi",
+      "categoria": "secco",
+      "certezza": "SCELTO",
+      "colore": "VERDE",
+      "data": "2026-08-20",
+      "fonteTipo": "scelto da te",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "100% farina di lenticchie rosse\u0027. SENZA GLUTINE. \u0027Da agricoltura biologica.",
+      "marca": "Combino",
+      "motivo": "voci tutte in fascia, energia al limite ma dentro",
+      "negozio": "Lidl",
+      "nome": "Sedani‍ di lenticchie (Combino)",
+      "nova": 1,
+      "nutriscore": "A",
+      "porzioneDichiarata": 0,
+      "tipo": "PASTA",
+      "valori": {
+        "kcal": 335.0,
+        "grassi": 1.7,
+        "saturi": 0.4,
+        "carboidrati": 50.0,
+        "zuccheri": 1.2,
+        "fibre": 7.6,
+        "proteine": 26.0,
+        "sale": 0.01
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
