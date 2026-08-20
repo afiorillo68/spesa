@@ -3,6 +3,7 @@
     "Bevanda",
     "Carne",
     "Condimenti",
+    "Contorni",
     "Dolci",
     "Farine",
     "Formaggi",
@@ -1416,7 +1417,7 @@
     },
     {
       "barcode": "20165192",
-      "cartella": "",
+      "cartella": "Contorni",
       "categoria": "frutta",
       "certezza": "CERTO",
       "colore": "VERDE",
