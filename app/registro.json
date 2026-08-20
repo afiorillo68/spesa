@@ -1446,6 +1446,39 @@
         "sale": 0.28
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "20165192",
+      "cartella": "",
+      "categoria": "frutta",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-20",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "",
+      "marca": "Freshona",
+      "motivo": "tutte le voci dentro le soglie",
+      "negozio": "Lidl",
+      "nome": "Contorno Grigliato (Freshona)",
+      "nova": 0,
+      "nutriscore": "A",
+      "porzioneDichiarata": 450,
+      "tipo": "VERDURA",
+      "valori": {
+        "kcal": 74.0,
+        "grassi": 2.5,
+        "saturi": 0.2,
+        "carboidrati": 10.0,
+        "zuccheri": 2.1,
+        "fibre": 2.1,
+        "proteine": 1.7,
+        "sale": 0.001125
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
