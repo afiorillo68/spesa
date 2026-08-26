@@ -1513,6 +1513,39 @@
         "sale": 0.01
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "24101622",
+      "cartella": "",
+      "categoria": "solido",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-26",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "",
+      "marca": "pro+tein",
+      "motivo": "voci tutte in fascia, sale al limite ma dentro",
+      "negozio": "Eurospin",
+      "nome": "Riso latte (pro+tein)",
+      "nova": 0,
+      "nutriscore": "UNKNOWN",
+      "porzioneDichiarata": 0,
+      "tipo": "PASTA",
+      "valori": {
+        "kcal": 91.0,
+        "grassi": 2.2,
+        "saturi": 1.5,
+        "carboidrati": 10.0,
+        "zuccheri": 3.7,
+        "fibre": 0.5,
+        "proteine": 7.7,
+        "sale": 0.32
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
