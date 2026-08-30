@@ -1645,6 +1645,38 @@
         "sale": 0.139024390243902
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8034066371714",
+      "cartella": "Dolci",
+      "categoria": "latticino",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-30",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "Proteine del latte, latte intero, panna, cacao magro in polvere 2,2%, amido, amido modificato, cacao in polvere 0,4%, carragenina, gomma di guar; citrati di sodio, fosfati di sodio; acesulfame K, sucralosio; lattasi",
+      "marca": "Milk Pro",
+      "motivo": "tutte le voci dentro le soglie",
+      "negozio": "Pam",
+      "nome": "Pro High proteine crema dessert al cacao (Milk Pro)",
+      "nova": 4,
+      "nutriscore": "A",
+      "porzioneDichiarata": 200,
+      "tipo": "LATTE",
+      "valori": {
+        "kcal": 84.0,
+        "grassi": 1.5,
+        "saturi": 1.0,
+        "carboidrati": 6.5,
+        "zuccheri": 4.2,
+        "proteine": 10.2,
+        "sale": 0.18
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
