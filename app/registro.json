@@ -1612,6 +1612,39 @@
         "grassi": 2.8
       },
       "zuccheriAggiunti": true
+    },
+    {
+      "barcode": "3023290081259",
+      "cartella": "",
+      "categoria": "solido",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-08-30",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "",
+      "marca": "nescafe nestle",
+      "motivo": "voci tutte in fascia, zuccheri al limite ma dentro",
+      "negozio": "Pam",
+      "nome": "espresso (nescafe nestle)",
+      "nova": 0,
+      "nutriscore": "UNKNOWN",
+      "porzioneDichiarata": 205,
+      "tipo": "IGNOTO",
+      "valori": {
+        "kcal": 66.8292682926829,
+        "grassi": 1.60975609756098,
+        "saturi": 1.07317073170732,
+        "carboidrati": 9.5609756097561,
+        "zuccheri": 9.5609756097561,
+        "fibre": 0.536585365853659,
+        "proteine": 3.21951219512195,
+        "sale": 0.139024390243902
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
