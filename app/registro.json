@@ -1680,7 +1680,7 @@
     },
     {
       "barcode": "4002971119107",
-      "cartella": "",
+      "cartella": "Yogurt",
       "categoria": "latticino",
       "certezza": "CERTO",
       "colore": "VERDE",
@@ -1688,7 +1688,7 @@
       "fonteTipo": "Open Food Facts",
       "fonteValori": "openfoodfacts",
       "fotoIngredienti": "",
-      "fotoProdotto": "",
+      "fotoProdotto": "prodotto-1788164777548.jpg",
       "fotoTabella": "",
       "ingredienti": "",
       "marca": "Ehrmann",
