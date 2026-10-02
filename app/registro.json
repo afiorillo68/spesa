@@ -1779,7 +1779,7 @@
     },
     {
       "barcode": "8034066309199",
-      "cartella": "",
+      "cartella": "Formaggi",
       "categoria": "latticino",
       "certezza": "CERTO",
       "colore": "VERDE",
@@ -1787,7 +1787,7 @@
       "fonteTipo": "Open Food Facts",
       "fonteValori": "openfoodfacts",
       "fotoIngredienti": "",
-      "fotoProdotto": "",
+      "fotoProdotto": "prodotto-1790942144222.jpg",
       "fotoTabella": "",
       "ingredienti": "",
       "marca": "milk",
