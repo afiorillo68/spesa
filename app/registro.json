@@ -1776,6 +1776,39 @@
         "grassi": 3.2
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8034066309199",
+      "cartella": "",
+      "categoria": "latticino",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-10-02",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "",
+      "marca": "milk",
+      "motivo": "voci tutte in fascia, sale al limite ma dentro",
+      "negozio": "Oasi Tigre",
+      "nome": "Fiocchi di latte - Kefir (milk)",
+      "nova": 0,
+      "nutriscore": "UNKNOWN",
+      "porzioneDichiarata": 100,
+      "tipo": "YOGURT",
+      "valori": {
+        "kcal": 78.0,
+        "grassi": 0.9,
+        "saturi": 0.5,
+        "carboidrati": 6.0,
+        "zuccheri": 3.0,
+        "fibre": 3.0,
+        "proteine": 10.0,
+        "sale": 0.855
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
