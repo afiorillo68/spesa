@@ -1841,6 +1841,38 @@
         "grassi": 2.0
       },
       "zuccheriAggiunti": false
+    },
+    {
+      "barcode": "8017596015198",
+      "cartella": "Yogurt",
+      "categoria": "latticino",
+      "certezza": "CERTO",
+      "colore": "VERDE",
+      "data": "2026-11-14",
+      "fonteTipo": "Open Food Facts",
+      "fonteValori": "openfoodfacts",
+      "fotoIngredienti": "",
+      "fotoProdotto": "",
+      "fotoTabella": "",
+      "ingredienti": "",
+      "marca": "Land",
+      "motivo": "voci tutte in fascia, saturi al limite ma dentro",
+      "negozio": "Eurospin",
+      "nome": "Merendalatte (Land)",
+      "nova": 0,
+      "nutriscore": "B",
+      "porzioneDichiarata": 50,
+      "tipo": "YOGURT",
+      "valori": {
+        "kcal": 89.0,
+        "grassi": 2.5,
+        "saturi": 1.7,
+        "carboidrati": 11.0,
+        "zuccheri": 10.0,
+        "proteine": 5.6,
+        "sale": 0.1
+      },
+      "zuccheriAggiunti": false
     }
   ]
 }
